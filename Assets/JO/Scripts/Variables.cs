@@ -34,7 +34,7 @@ public class Variables : MonoBehaviour
     // Start is called before the first frame update
     void Awake(){
     #region  Singleton
-        if(managers == null && managers != this){
+        if(managers != null && managers != this){
             Debug.LogWarning("Mira mamaguevo hay 2 variables");
             Destroy(gameObject);
         }

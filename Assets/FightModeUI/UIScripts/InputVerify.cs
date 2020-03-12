@@ -20,8 +20,13 @@ public class InputVerify : MonoBehaviour
                 Debug.Log("Win");
                 ui_manager.manager.challengeCompleted = true;
             } else {
-                //Perder vida
-                //Barra de vida
+                if(!ui_manager.is_blocking){
+                    //Perder vida
+                    //Barra de vida
+                } else {
+                    ui_manager.is_blocking = false;
+                }
+
                 Debug.Log("Fail");
                 ui_manager.updateUI(UIMode.initialMode);
             }
