@@ -47,6 +47,8 @@ public class FightUIManager : MonoBehaviour
     }
 
     public void scapeSecuence(){
+        manager.challengeCompleted = true;
+        SimpleBlit.managers.enabled = true;
         StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, manager.sceneName));
     }
 
@@ -59,6 +61,7 @@ public class FightUIManager : MonoBehaviour
     private void Start(){
         monster = MonsterPicker.Picker.GetMonster(manager.currentChallenge);
         monster_image.GetComponent<Image>().sprite = monster.sprite;
+        SimpleBlit.managers.enabled = false;
 
         updateUI(UIMode.initialMode);
     }

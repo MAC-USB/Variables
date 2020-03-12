@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Monstruo", menuName = "Monstruo")]
 public class MonsterSO : ScriptableObject
 {
+    public string id = "identificador";
     public Sprite sprite = null;
     public string problem = "problema";
     public string solution = "solucion";

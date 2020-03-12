@@ -20,6 +20,7 @@ public class InputVerify : MonoBehaviour
             if(checkAnswer(ui_manager.monster.solution)){
                 //Respuesta
                 //Ganar y salir de combate. Secuencia de escape
+                ui_manager.manager.challengeCompleted = true;
                 StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, ui_manager.manager.sceneName));
             } else {
                 if(!ui_manager.is_blocking){
