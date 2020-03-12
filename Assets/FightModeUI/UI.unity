@@ -644,19 +644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a97aa54dd2c50f44e95ae2660f88fdba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groupName: 
-  position: {x: 0, y: 0, z: 0}
-  score: 0
-  currentChallenge: 0
-  sceneName: 
-  challengeCompleted: 0
-  challengesCompletedElyiano: 
-  challengesCompletedMagicant: 
-  challengesCompletedLaPuta: 
-  challengesCompletedKonohagakure: 
-  challengesCompletedNeovice: 
-  mana: 0
-  life: 0
 --- !u!114 &350106186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1298,6 +1285,7 @@ GameObject:
   - component: {fileID: 982669626}
   - component: {fileID: 982669625}
   - component: {fileID: 982669624}
+  - component: {fileID: 982669627}
   m_Layer: 0
   m_Name: AttackPanel
   m_TagString: Untagged
@@ -1425,6 +1413,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982669622}
   m_CullTransparentMesh: 0
+--- !u!114 &982669627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982669622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b35eeac409d8b343bc2f0b782ee139b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &991602304
 GameObject:
   m_ObjectHideFlags: 0

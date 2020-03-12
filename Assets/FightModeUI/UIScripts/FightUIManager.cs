@@ -13,9 +13,15 @@ public enum UIMode {
 
 public class FightUIManager : MonoBehaviour
 {
-    private Variables manager;
-    private DialogSystem dialog;
+    // Shared 
+    public UIMode current_ui_mode;
     public MonsterSO monster;
+    
+    // Main Scripts
+    public Variables manager;
+    private DialogSystem dialog;
+    
+    //UI Components
     private GameObject monster_image;
     private GameObject attack_panel;
     private GameObject dialog_panel;
@@ -57,6 +63,8 @@ public class FightUIManager : MonoBehaviour
                 monsterTipMode();
                 break;
         }
+
+        current_ui_mode = mode;
     }
 
     public void escapeSecuence(){
