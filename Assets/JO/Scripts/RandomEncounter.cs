@@ -13,6 +13,7 @@ public class RandomEncounter : MonoBehaviour
     List<int> completedChallenges = new List<int>();
     int currentChallenge;
     bool kernel;
+    AudioManager audMan;
 
     public ConversationSO preguntaAbrir = null;
 
@@ -20,6 +21,7 @@ public class RandomEncounter : MonoBehaviour
     void Start()
     {
 
+        audMan = GameObject.Find("Variables").GetComponent<AudioManager>();
         if (Variables.managers.portalCrossing){
             StartCoroutine(SimpleBlit.managers.FadeIn(TransType.Portal));
             Variables.managers.portalCrossing = false;
@@ -110,7 +112,7 @@ public class RandomEncounter : MonoBehaviour
             bool moved = prevPos != gameObject.transform.position;
             if (moved)
             {
-                int chance = Random.Range(0,10000000);
+                int chance = Random.Range(0,100);
                 prevPos = gameObject.transform.position;
                 //Debug.Log(chance);
 
@@ -124,6 +126,7 @@ public class RandomEncounter : MonoBehaviour
                         variables.position = transform.position;
                         //Load Scene
                         //SceneManager.LoadScene("BattleScene");
+                        audMan.Play("Begin Combat");
                         StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Random, "UI"));
 
                     }

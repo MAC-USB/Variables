@@ -3048,7 +3048,7 @@ MonoBehaviour:
   challengesCompletedNeovice: 
   challengesCompletedKernel: 
   portalCrossing: 0
-  score: 1000
+  score: 0
 --- !u!4 &1376334620
 Transform:
   m_ObjectHideFlags: 0
