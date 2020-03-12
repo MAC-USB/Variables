@@ -4,10 +4,21 @@ using UnityEngine;
 
 public class InitialDialog : MonoBehaviour
 {
+    public static InitialDialog Manager { get; private set; }
+
     public ConversationSO initialConv = null;
     public ConversationSO deadConv = null;
 
     public string sceneDiag = "Elyiano";
+
+    private void Awake()
+    {
+        if (Manager != null && Manager != this)
+        {
+            Debug.LogWarning("Dialogo inicial duplicado");
+        }
+        Manager = this;
+    }
 
     // Start is called before the first frame update
     void StartInitial()
