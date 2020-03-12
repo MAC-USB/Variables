@@ -646,6 +646,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
   groupName: 
+  boss: 0
+  mp: 0
+  hp: 0
+  puta: []
   currentChallenge: 0
   challengeCompleted: 0
   sceneName: 
@@ -1121,7 +1125,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1573,6 +1577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   current_ui_mode: 0
   monster: {fileID: 11400000, guid: 671a28dc3cae44b4e93d6f2431a6f792, type: 2}
+  is_blocking: 0
   manager: {fileID: 0}
 --- !u!1 &1385580364
 GameObject:
@@ -2081,7 +2086,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Bla Bla Bla un llanero salvaje aparecio
+  m_Text: 
 --- !u!222 &2006033088
 CanvasRenderer:
   m_ObjectHideFlags: 0
