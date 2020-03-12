@@ -15,7 +15,6 @@ public class FightUIManager : MonoBehaviour
 {
     // Shared 
     public UIMode current_ui_mode;
-    
     public MonsterSO monster;
     public bool is_blocking = false;
     

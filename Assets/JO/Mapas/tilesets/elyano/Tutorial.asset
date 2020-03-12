@@ -15,6 +15,18 @@ MonoBehaviour:
   dialogs: []
   dialogsSO:
   - talker: 1
-    dialog: 'Maga: Estoy escuchando... voces. Creo que mis poderes de clarividencia
-      se estan activando, y me dicen que "Para moverte utiliza las flechas, habran
-      4 enemigos por mundo y un boss...'
+    dialog: "Estoy escuchando... voces. \nCreo que mis poderes de clarividencia se
+      estan activando, y me dicen que \"Para moverte utiliza las flechas o WASD,
+      habran 4 enemigos por mundo y un boss"
+  - talker: 1
+    dialog: Al vencer un boss aparecera un portal dependiendo del mundo que decidamos
+      desbloquear, para interactuar con los bosses y los portales se debe pulsar
+      'f'
+  - talker: 1
+    dialog: 'Los encuentros con los enemigos menores son aleatorios y ocurren mientras
+      caminamos" ...
+
+      Ya no escucho nada. Deberiamos anotar eso por si se nos
+      olvida.'
+  - talker: 0
+    dialog: Me perdi, como era que nos moviamos?
