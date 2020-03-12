@@ -20,7 +20,6 @@ public class InputVerify : MonoBehaviour
             if(checkAnswer(ui_manager.monster.solution)){
                 //Respuesta
                 //Ganar y salir de combate. Secuencia de escape
-                Debug.Log("Win");
                 ui_manager.manager.challengeCompleted = true;
             } else {
                 if(!ui_manager.is_blocking){
@@ -29,7 +28,6 @@ public class InputVerify : MonoBehaviour
                     ui_manager.is_blocking = false;
                 }
 
-                Debug.Log("Fail");
                 ui_manager.updateUI(UIMode.initialMode);
             }
         }
