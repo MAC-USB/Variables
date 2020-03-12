@@ -40,8 +40,7 @@ public class Variables : MonoBehaviour
     public bool portalCrossing;
 
     // Quoka
-    public int score = -1;
-    public string username = "unow";
+    public int score = 0;
     // Start is called before the first frame update
     void Awake(){
     #region  Singleton
