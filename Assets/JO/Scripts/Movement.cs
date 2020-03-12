@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour {
 
 
 
-	public float speed;
+	float speed = 3;
 	int vertical;
 	int horizontal;
 	public Animator anim;
