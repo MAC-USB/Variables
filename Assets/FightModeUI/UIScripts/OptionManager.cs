@@ -33,7 +33,7 @@ public class OptionManager : MonoBehaviour
     }
 
     private void Update(){
-        if (Input.GetKeyDown(KeyCode.Return)){
+        if (Input.GetKeyDown(KeyCode.Return) && can_move){
             can_move = false;
 
             if (is_vertical){
@@ -81,7 +81,8 @@ public class OptionManager : MonoBehaviour
     private void setUIModeV(){
         switch(index){
             case 0:
-                //manager.updateUI(UIMode.attackMode);
+                manager.is_blocking = true;
+                manager.updateUI(UIMode.attackMode);
                 break;
             case 1:
                 //manager.updateUI(UIMode.specialMode);

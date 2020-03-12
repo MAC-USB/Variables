@@ -474,7 +474,7 @@ MonoBehaviour:
   macHeart2: {fileID: 1056497921}
   start: {fileID: 1905906286}
   sure: {fileID: 1138054388}
-  name: {fileID: 1341794937}
+  nombre: {fileID: 1341794937}
   messageBox: {fileID: 848331382}
   inputField: {fileID: 394504892}
   fondo: {fileID: 457228036}
@@ -1481,6 +1481,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   position: {x: -0.75, y: -6, z: 0}
   groupName: 
+  boss: 0
+  mp: 0
+  hp: 0
+  puta: []
   currentChallenge: 0
   challengeCompleted: 0
   sceneName: 
