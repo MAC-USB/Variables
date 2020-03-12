@@ -134,6 +134,7 @@ public class FightUIManager : MonoBehaviour
 
     // Attack and block modes
     private void attackMode(){
+        FileUpdate.update();
         resetMode();
         //dialog.StopMonsterDiag();
         special_options.SetActive(false);
