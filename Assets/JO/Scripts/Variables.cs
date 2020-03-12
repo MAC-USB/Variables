@@ -11,6 +11,10 @@ public class Variables : MonoBehaviour
     // Juancito
     public Vector3 position = new Vector3();
     public Dictionary<string, int> portales = new Dictionary<string, int>();
+    public Dictionary<string, bool> diagInit = new Dictionary<string, bool>();
+
+    // su vaina de muerto
+    public bool malditoAmin = false;
 
 
     // Carlitos
@@ -56,7 +60,14 @@ public class Variables : MonoBehaviour
         portales.Add("Konohagakure",0);
         portales.Add("Neovice",0);
         portales.Add("Kernel",0);
-        
+
+        diagInit.Add("Elyiano", false);
+        diagInit.Add("Magicant", false);
+        diagInit.Add("LaPuta", false);
+        diagInit.Add("Konohagakure", false);
+        diagInit.Add("Neovice", false);
+        diagInit.Add("Kernel", false);
+
         DontDestroyOnLoad(gameObject);
 
     }
