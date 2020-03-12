@@ -8,6 +8,11 @@ public class SpaceDeath : MonoBehaviour
 
     bool fix = false;
     public GameObject you_died;
+    public AudioManager audMan;
+
+    void Start(){
+        audMan = GameObject.Find("Variables").GetComponent<AudioManager>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -16,7 +21,7 @@ public class SpaceDeath : MonoBehaviour
             Variables.managers.current_hp = 0;
             Variables.managers.malditoAmin = true;
             Variables.managers.portales["Kernel"] = 0;
-            
+            audMan.Play("Death");
             StartCoroutine("you_died");
             SceneManager.LoadScene("Elyiano");
         }
