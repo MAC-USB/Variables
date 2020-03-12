@@ -76,7 +76,7 @@ public class OptionManager : MonoBehaviour
                 break;
             case 2:
                 bar_controller.reduceBar("h", "s");
-                manager.manager.challengeCompleted = true;
+                manager.scapeSecuence();
                 break;
         }
     }
@@ -93,7 +93,8 @@ public class OptionManager : MonoBehaviour
                 manager.updateUI(UIMode.tipMode);
                 break;
             case 2:
-                bar_controller.reduceBar("h", "s");
+                bar_controller.increaseBar();
+                manager.updateUI(UIMode.initialMode);
                 break;
         }
     }
