@@ -38,6 +38,7 @@ public class FightUIManager : MonoBehaviour
         event_system_manager = GameObject.Find("EventSystem");
 
         monster_image = transform.GetChild(0).gameObject;
+        monster_image.GetComponent<Image>().sprite = monster.sprite;
         attack_panel = transform.GetChild(1).gameObject;
         dialog_panel = transform.GetChild(2).gameObject;
         special_options = transform.GetChild(3).gameObject;
