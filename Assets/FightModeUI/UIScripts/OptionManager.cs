@@ -81,7 +81,8 @@ public class OptionManager : MonoBehaviour
     private void setUIModeV(){
         switch(index){
             case 0:
-                //manager.updateUI(UIMode.attackMode);
+                manager.is_blocking = true;
+                manager.updateUI(UIMode.attackMode);
                 break;
             case 1:
                 //manager.updateUI(UIMode.specialMode);

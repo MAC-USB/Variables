@@ -16,6 +16,7 @@ public class FightUIManager : MonoBehaviour
     // Shared 
     public UIMode current_ui_mode;
     public MonsterSO monster;
+    public bool is_blocking = false;
     
     // Main Scripts
     public Variables manager;
@@ -75,6 +76,7 @@ public class FightUIManager : MonoBehaviour
 
     }
 
+    // Init and reset modes
     private void initialMode(){
         monster_image.SetActive(true);
         attack_panel.SetActive(false);
@@ -95,6 +97,7 @@ public class FightUIManager : MonoBehaviour
         button_area.SetActive(true);
     }
 
+    // Dialog modes
     private void monsterDialogMode(){
         resetMode();
         attack_panel.SetActive(false);
@@ -106,6 +109,15 @@ public class FightUIManager : MonoBehaviour
         dialog.StartMonsterTipRoutine(monster, dialog_panel.transform.GetChild(0).gameObject.GetComponent<Text>());
     }
 
+    // Selection mode
+    private void specialMode(){
+        resetMode();
+        dialog.StopMonsterDiag();
+        attack_panel.SetActive(false);
+        dialog_panel.transform.GetChild(0).gameObject.SetActive(false);
+    }
+
+    // Attack and block modes
     private void attackMode(){
         resetMode();
         dialog.StopMonsterDiag();
@@ -114,18 +126,5 @@ public class FightUIManager : MonoBehaviour
         attack_panel.GetComponent<InputField>().text = "";
         //EventSystem.current.SetSelectedGameObject(attack_panel.gameObject, null);
         //attack_panel.GetComponent<InputField>().OnPointerClick(null);
-    }
-
-    private void specialMode(){
-        resetMode();
-        dialog.StopMonsterDiag();
-        attack_panel.SetActive(false);
-        dialog_panel.transform.GetChild(0).gameObject.SetActive(false);
-    }
-
-    private void blockMode(){
-        resetMode();
-        dialog.StopMonsterDiag();
-        
     }
 }
