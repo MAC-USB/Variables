@@ -652,9 +652,9 @@ MonoBehaviour:
   current_mp: 0
   current_hp: 0
   puta: []
-  currentChallenge: 0
+  currentChallenge: 1
   challengeCompleted: 0
-  sceneName: 
+  sceneName: Elyiano
   challengesCompletedElyiano: 
   challengesCompletedMagicant: 
   challengesCompletedLaPuta: 
@@ -892,6 +892,7 @@ MonoBehaviour:
   - {fileID: 400687982}
   - {fileID: 231662020}
   - {fileID: 139453074}
+  bar_controller: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,6 +1035,7 @@ MonoBehaviour:
   - {fileID: 1385580364}
   - {fileID: 1571423954}
   - {fileID: 1593021005}
+  bar_controller: {fileID: 0}
 --- !u!1 &684488580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ui_manager: {fileID: 0}
+  bar_controller: {fileID: 0}
 --- !u!1 &991602304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,6 +1551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1270950954}
   - component: {fileID: 1270950955}
+  - component: {fileID: 1270950956}
   m_Layer: 0
   m_Name: MainPanel
   m_TagString: Untagged
@@ -1592,9 +1596,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current_ui_mode: 0
-  monster: {fileID: 11400000, guid: 671a28dc3cae44b4e93d6f2431a6f792, type: 2}
+  monster: {fileID: 11400000, guid: 19e61099267839b4abaccad7841ce171, type: 2}
   is_blocking: 0
   manager: {fileID: 0}
+--- !u!114 &1270950956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270950953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff79f2c61a8256b4a81877e6421c2426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monstersElyiano:
+  - {fileID: 11400000, guid: 1a9c94c1467cf8744a1267820b37007f, type: 2}
+  - {fileID: 11400000, guid: b4444f93ab16a224ebf5c9625ebdcf6b, type: 2}
+  - {fileID: 11400000, guid: 82690b66b9d8e1445bb593f329942614, type: 2}
+  - {fileID: 11400000, guid: 95af768bf90843c4b8153b85e643dd0c, type: 2}
+  monstersMagicant: []
+  monstersLaPuta: []
+  monstersKonohagakure: []
+  monstersNeovice: []
 --- !u!1 &1385580364
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,12 +2115,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: fc50c5d2642cc2248b73f08bedccae5b, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 2429e8089b65d444fb69411aee1552f6, type: 3}
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 20
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1

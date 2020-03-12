@@ -11,6 +11,7 @@ public class OptionManager : MonoBehaviour
     public bool is_vertical;
     public GameObject[] options;
     private FightUIManager manager;
+    public MHController bar_controller;
     private float index = 0;
     private KeyCode more = KeyCode.RightArrow;
     private KeyCode less = KeyCode.LeftArrow;
@@ -18,6 +19,7 @@ public class OptionManager : MonoBehaviour
     private void Awake()
     {
         manager = GameObject.Find("MainPanel").GetComponent<FightUIManager>();
+        bar_controller = GameObject.Find("Status").GetComponent<MHController>();
 
         if (is_vertical){
             less = KeyCode.UpArrow;
@@ -82,12 +84,15 @@ public class OptionManager : MonoBehaviour
         switch(index){
             case 0:
                 manager.is_blocking = true;
+                bar_controller.reduceBar("m", "f");
                 manager.updateUI(UIMode.attackMode);
                 break;
             case 1:
+                bar_controller.reduceBar("m", "f");
                 manager.updateUI(UIMode.tipMode);
                 break;
             case 2:
+                bar_controller.reduceBar("h", "s");
                 //manager.escapeSecuence();
                 break;
         }

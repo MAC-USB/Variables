@@ -6,11 +6,11 @@ public class MonsterPicker : MonoBehaviour
 {
     public static MonsterPicker Picker { get; private set; }
 
-    private List<MonsterSO> monstersElyiano = null;
-    private List<MonsterSO> monstersMagicant = null;
-    private List<MonsterSO> monstersLaPuta = null;
-    private List<MonsterSO> monstersKonohagakure = null;
-    private List<MonsterSO> monstersNeovice = null;
+    public List<MonsterSO> monstersElyiano = null;
+    public List<MonsterSO> monstersMagicant = null;
+    public List<MonsterSO> monstersLaPuta = null;
+    public List<MonsterSO> monstersKonohagakure = null;
+    public List<MonsterSO> monstersNeovice = null;
 
     private void Awake()
     {
@@ -28,7 +28,7 @@ public class MonsterPicker : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
 
-#if UNITY_EDITOR
+/*#if UNITY_EDITOR
         if (monstersElyiano == null) Debug.LogError("Monsters Elyano nulos", this);
         else if(monstersElyiano.Count == 0) Debug.LogError("Monsters Elyano vacio", this);
 
@@ -43,16 +43,18 @@ public class MonsterPicker : MonoBehaviour
 
         if (monstersNeovice == null) Debug.LogError("Monsters Neovice nulos", this);
         else if (monstersNeovice.Count == 0) Debug.LogError("Monsters Neovice vacio", this);
-#endif
+#endif*/
     }
 
     public MonsterSO GetMonster(int monsterInd)
     {
         string scene = Variables.managers.sceneName;
+        Debug.Log(scene);
 
         switch (scene.Trim())
         {
-            case "Elyano":
+            case "Elyiano":
+            
                 return monstersElyiano[monsterInd];
             case "Magicant":
                 return monstersMagicant[monsterInd];
