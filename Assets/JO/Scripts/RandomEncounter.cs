@@ -12,6 +12,7 @@ public class RandomEncounter : MonoBehaviour
     public List<int> challenges = null;
     List<int> completedChallenges = new List<int>();
     int currentChallenge;
+    bool kernel;
 
     public ConversationSO preguntaAbrir = null;
 
@@ -48,6 +49,9 @@ public class RandomEncounter : MonoBehaviour
             case "Neovice":
                 completedChallenges = variables.challengesCompletedNeovice;
                 break;
+            case "Kernel":
+                kernel = true;
+                break;
         }
         if (variables.challengeCompleted)
         {
@@ -64,39 +68,52 @@ public class RandomEncounter : MonoBehaviour
                 DialogSystem.Manager.StartConversation(preguntaAbrir);
             }
 
+            if (Variables.managers.score == 35){
+                if (Variables.managers.malditoAmin) {
+                    DialogSystem.Manager.StartConversation(Variables.managers.dialogoTodosMuertos);
+                    Variables.managers.todosMuertos = false;
+                }
+                else{
+                    Variables.managers.todosMuertos = true;
+                }
+                Variables.managers.portales["Kernel"] = 1;
+            }
+
             variables.challengeCompleted = false;
         }
 
         Variables.managers.boss = false;
         foreach(int i in completedChallenges)
             challenges.Remove(i);
-
-        if (Variables.managers.score == 35)
-            Variables.managers.portales["Kernel"] = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        bool moved = prevPos != gameObject.transform.position;
-        if (moved)
-        {
-            int chance = Random.Range(0,10000000);
-            prevPos = gameObject.transform.position;
-            //Debug.Log(chance);
-
-            if (chance == 69)
+        if (kernel)
+            return;
+        else
+        {   
+            bool moved = prevPos != gameObject.transform.position;
+            if (moved)
             {
-                if (challenges.Count > 0)
-                {
-                    Debug.Log("Encuentro");
-                    currentChallenge = challenges[Random.Range(0, challenges.Count)];
-                    variables.currentChallenge = currentChallenge;
-                    variables.position = transform.position;
-                    //Load Scene
-                    //SceneManager.LoadScene("BattleScene");
-                    StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Random, "UI"));
+                int chance = Random.Range(0,10000000);
+                prevPos = gameObject.transform.position;
+                //Debug.Log(chance);
 
+                if (chance == 69)
+                {
+                    if (challenges.Count > 0)
+                    {
+                        Debug.Log("Encuentro");
+                        currentChallenge = challenges[Random.Range(0, challenges.Count)];
+                        variables.currentChallenge = currentChallenge;
+                        variables.position = transform.position;
+                        //Load Scene
+                        //SceneManager.LoadScene("BattleScene");
+                        StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Random, "UI"));
+
+                    }
                 }
             }
         }
