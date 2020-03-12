@@ -43,6 +43,7 @@ public class Teleport : MonoBehaviour
         if (other.tag == "Player" && Input.GetKeyDown(KeyCode.F)){
             variables.position = position;
             print(variables.position);
+            //SimpleBlit.managers.FadeOut();
             SceneManager.LoadScene(to);
         }
     }

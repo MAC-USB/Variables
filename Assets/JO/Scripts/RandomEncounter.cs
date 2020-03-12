@@ -12,7 +12,6 @@ public class RandomEncounter : MonoBehaviour
     public List<int> challenges = null;
     List<int> completedChallenges = new List<int>();
     int currentChallenge;
-    public Material TransitionMaterial;
 
     public ConversationSO preguntaAbrir = null;
 
@@ -61,6 +60,10 @@ public class RandomEncounter : MonoBehaviour
 
             variables.challengeCompleted = false;
         }
+        
+        if (Variables.managers.score == 35)
+            Variables.managers.portales["Kernel"] = 1;
+
         Variables.managers.boss = false;
         foreach(int i in completedChallenges)
             challenges.Remove(i);
@@ -72,7 +75,7 @@ public class RandomEncounter : MonoBehaviour
         bool moved = prevPos != gameObject.transform.position;
         if (moved)
         {
-            int chance = Random.Range(0,100);
+            int chance = Random.Range(0,1000);
             prevPos = gameObject.transform.position;
             //Debug.Log(chance);
 
@@ -83,34 +86,13 @@ public class RandomEncounter : MonoBehaviour
                     Debug.Log("Encuentro");
                     currentChallenge = challenges[Random.Range(0, challenges.Count)];
                     variables.currentChallenge = currentChallenge;
+                    variables.position = transform.position;
                     //Load Scene
                     //SceneManager.LoadScene("BattleScene");
-                    variables.position = transform.position;
                     StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Random, "UI"));
 
                 }
             }
         }
-    }
-
-
-    IEnumerator FadeIn(){
-        float progress = 1;
-        TransitionMaterial.SetFloat("_Cutoff", progress);
-        while (progress > 0){
-            progress = Mathf.Clamp(progress - 0.0069f, 0f, 1f);
-            TransitionMaterial.SetFloat("_Cutoff", progress);
-            yield return new WaitForSeconds(0.01f);
-        }
-    }
-    IEnumerator FadeOut(){
-        float progress = 0;
-        TransitionMaterial.SetFloat("_Cutoff", progress);
-        while (progress < 1){
-            progress = Mathf.Clamp(progress + 0.0069f, 0f, 1f);
-            TransitionMaterial.SetFloat("_Cutoff", progress);
-            yield return new WaitForSeconds(0.01f);
-        }
-        SceneManager.LoadScene("UI");
     }
 }
