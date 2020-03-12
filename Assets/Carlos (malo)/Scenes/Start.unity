@@ -1481,6 +1481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: -0.75, y: -6, z: 0}
+  malditoAmin: 0
   groupName: 
   boss: 0
   initial_mp: 10
@@ -1526,14 +1527,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monstersElyiano:
+  - {fileID: 11400000, guid: 82342f22d32fad5499936efb3c14e823, type: 2}
+  - {fileID: 11400000, guid: ac9e25b365f988145b6d5ead53ae7d28, type: 2}
+  - {fileID: 11400000, guid: 5da76faafa24a614aba6c788a3ac5ae8, type: 2}
   - {fileID: 11400000, guid: 1a9c94c1467cf8744a1267820b37007f, type: 2}
-  - {fileID: 11400000, guid: 185c07fe73b6c594983a7e254c42f779, type: 2}
+  monstersMagicant:
+  - {fileID: 11400000, guid: 9a22f8886422bc04fa366b0432f19078, type: 2}
+  - {fileID: 11400000, guid: 7821dc8103f67fd4f925ee980b8fee39, type: 2}
+  - {fileID: 11400000, guid: ce96ea61cc074124e9b8a81f27505f0d, type: 2}
+  - {fileID: 11400000, guid: 1b7c4e14a562a3243b40bc7cd2724145, type: 2}
+  monstersLaPuta:
+  - {fileID: 11400000, guid: 5f662129257f52b4eb1409ffc3f4f1bc, type: 2}
+  - {fileID: 11400000, guid: 93a65259854782641b93b6000e330a44, type: 2}
+  - {fileID: 11400000, guid: 46d35b9a0510e784fb6ee070b61304b5, type: 2}
+  - {fileID: 11400000, guid: f47767e0ec33616438e53975575409f7, type: 2}
+  monstersKonohagakure:
   - {fileID: 11400000, guid: b4444f93ab16a224ebf5c9625ebdcf6b, type: 2}
+  - {fileID: 11400000, guid: 7800857de89d57749ab039e0328d7fea, type: 2}
+  - {fileID: 11400000, guid: 29b0316d66381a14a987e7405fd02012, type: 2}
+  - {fileID: 11400000, guid: 82690b66b9d8e1445bb593f329942614, type: 2}
+  monstersNeovice:
   - {fileID: 11400000, guid: 4b6472d70095c44409086c1c42c03e34, type: 2}
-  monstersMagicant: []
-  monstersLaPuta: []
-  monstersKonohagakure: []
-  monstersNeovice: []
+  - {fileID: 11400000, guid: 19e61099267839b4abaccad7841ce171, type: 2}
+  - {fileID: 11400000, guid: c14dcbb7f3e889249b3f804be4b4370e, type: 2}
+  - {fileID: 11400000, guid: 061edb21fbbf5f641a3f898c1bd4c101, type: 2}
 --- !u!1 &1561042710
 GameObject:
   m_ObjectHideFlags: 0
