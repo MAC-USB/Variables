@@ -31,6 +31,7 @@ public class FightUIManager : MonoBehaviour
     private GameObject dialog_panel;
     private GameObject special_options;
     private GameObject button_area;
+    private AudioManager audMan;
 
     //Event system
     private GameObject event_system_manager;
@@ -40,7 +41,7 @@ public class FightUIManager : MonoBehaviour
         dialog = GameObject.Find("Variables").GetComponent<DialogSystem>();
         event_system_manager = GameObject.Find("EventSystem");
 
-        //audMan = GameObject.Find("Variables").GetComponent<AudioManager>();
+        audMan = GameObject.Find("Variables").GetComponent<AudioManager>();
 
         monster_image = transform.GetChild(0).gameObject;
         attack_panel = transform.GetChild(1).gameObject;
@@ -54,7 +55,7 @@ public class FightUIManager : MonoBehaviour
         //manager.challengeCompleted = true;
         SimpleBlit.managers.enabled = true;
         
-        //audMan.Play("Huir");
+        audMan.Play("Huir");
 
         StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, manager.sceneName));
     }
@@ -77,7 +78,7 @@ public class FightUIManager : MonoBehaviour
         button_area.SetActive(false);
         status.SetActive(false);
         you_died.SetActive(true);
-        //audMan.Play("Death");
+        audMan.Play("Death");
         yield return new WaitForSeconds(3f);
         reborn();
     }
