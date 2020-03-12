@@ -15,7 +15,8 @@ public class Variables : MonoBehaviour
 
     // su vaina de muerto
     public bool malditoAmin = false;
-
+    public bool todosMuertos = false;
+    public ConversationSO dialogoTodosMuertos = null;
 
     // Carlitos
     public string groupName;
