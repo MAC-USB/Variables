@@ -6,10 +6,23 @@ using UnityEngine.SceneManagement;
 
 public class SelectButtons : MonoBehaviour
 {
+    public static SelectButtons Manager { get; private set; }
     public Button butMagicant = null;
     public Button butLaPuta = null;
     public Button butKono = null;
     public Button butNeo = null;
+
+    private void Awake()
+    {
+        #region  Singleton
+        if (Manager != null && Manager != this)
+        {
+            Debug.LogWarning("SelectButtons duplicados.");
+            Destroy(gameObject);
+        }
+        Manager = this;
+        #endregion
+    }
 
     private void Start()
     {
@@ -25,7 +38,7 @@ public class SelectButtons : MonoBehaviour
         if (butNeo == null) Debug.LogWarning("Mira maldito, el boton de Neo no esta");
         else butNeo.gameObject.SetActive(false);
 
-        ActivateButtons();
+        DisableButtons();
     }
 
     public void ActivateButtons()
@@ -72,7 +85,9 @@ public class SelectButtons : MonoBehaviour
         butKono.gameObject.SetActive(false);
     }
 
-    public void LoadMagicant() => SceneManager.LoadScene("Magicant");
+    public void LoadMagicant() {
+
+    }
     public void LoadLaPuta() => SceneManager.LoadScene("LaPuta");
     public void LoadKono() => SceneManager.LoadScene("Konohagakure");
     public void LoadNeo() => SceneManager.LoadScene("Neovice");
