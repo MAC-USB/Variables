@@ -20,7 +20,10 @@ public class Variables : MonoBehaviour
     public List<int> challengesCompletedKonohagakure;
     public List<int> challengesCompletedNeovice;
     public List<int> challengesCompletedKernel;
-    
+
+    // Quoka
+    public int score = 1000;
+    public string username = "Juan El egro";
     // Start is called before the first frame update
     void Start()
     {
