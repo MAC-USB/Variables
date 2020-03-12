@@ -51,6 +51,7 @@ public class FightUIManager : MonoBehaviour
     public void scapeSecuence(){
         //manager.challengeCompleted = true;
         SimpleBlit.managers.enabled = true;
+        //Huir
         StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, manager.sceneName));
     }
 
@@ -72,6 +73,7 @@ public class FightUIManager : MonoBehaviour
         button_area.SetActive(false);
         status.SetActive(false);
         you_died.SetActive(true);
+        //Murio
         yield return new WaitForSeconds(3f);
         reborn();
     }

@@ -101,36 +101,35 @@ public class leaderBoard : MonoBehaviour {
 			.WithPresence()
 			.Execute();
 		
-		InvokeRepeating("SubmitScore", 1.0f, 1.0f);
+		InvokeRepeating("SubmitScore", 5.0f, 5.0f);
 	}
 
 	//void TaskOnClick()
-	// void SubmitScore()
-	// {
-	// 	Variables gameManager = GameObject.Find("Variables").GetComponent<managers>();
-	// 	// var usernametext = FieldUsername.text;// this would be set somewhere else in the code
-	// 	// var scoretext = FieldScore.text;
-	// 	MyClass myObject = new MyClass();
-	// 	// myObject.username = FieldUsername.text;
-	// 	myObject.username = gameManager.groupName;
-	// 	// myObject.score = FieldScore.text;
-	// 	myObject.score = gameManager.score.ToString();
-	// 	string json = JsonUtility.ToJson(myObject);
+	void SubmitScore()
+	{
+		// var usernametext = FieldUsername.text;// this would be set somewhere else in the code
+		// var scoretext = FieldScore.text;
+		MyClass myObject = new MyClass();
+		// myObject.username = FieldUsername.text;
+		myObject.username = Variables.managers.groupName;
+		// myObject.score = FieldScore.text;
+		myObject.score =  Variables.managers.score.ToString();
+		string json = JsonUtility.ToJson(myObject);
 
-	// 	pubnub.Publish()
-	// 		.Channel("my_channel")
-	// 		.Message(json)
-	// 		.Async((result, status) => {    
-	// 			if (!status.Error) {
-	// 				Debug.Log(string.Format("Publish Timetoken: {0}", result.Timetoken));
-	// 			} else {
-	// 				Debug.Log(status.Error);
-	// 				Debug.Log(status.ErrorData.Info);
-	// 			}
-	// 		});
-	// 	//Output this to console when the Button is clicked
-	// 	Debug.Log("You have clicked the button!");
-	// }
+		pubnub.Publish()
+			.Channel("my_channel")
+			.Message(json)
+			.Async((result, status) => {    
+				if (!status.Error) {
+					Debug.Log(string.Format("Publish Timetoken: {0}", result.Timetoken));
+				} else {
+					Debug.Log(status.Error);
+					Debug.Log(status.ErrorData.Info);
+				}
+			});
+		//Output this to console when the Button is clicked
+		Debug.Log("You have clicked the button!");
+	}
 
 	
 
