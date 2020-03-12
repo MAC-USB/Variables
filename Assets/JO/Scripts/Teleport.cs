@@ -40,7 +40,7 @@ public class Teleport : MonoBehaviour
             }
             variables.portales[from] = 1;
         }
-        else if (fix && Input.GetKeyDown(KeyCode.F)){
+        if (fix && Input.GetKeyDown(KeyCode.F)){
             variables.position = position;
             Variables.managers.portalCrossing = true;
             StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Portal, to));

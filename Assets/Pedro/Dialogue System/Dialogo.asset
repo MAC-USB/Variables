@@ -14,11 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogs: []
   dialogsSO:
-  - talker: 0
-    dialog: Epale Angel
-  - talker: 2
-    dialog: Hola Amin
-  - talker: 3
-    dialog: Habla claro, volleybolazo manana
   - talker: 4
-    dialog: LA MORIZION
+    dialog: Elige un portal a abrir

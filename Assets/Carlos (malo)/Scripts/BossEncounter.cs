@@ -17,14 +17,11 @@ public class BossEncounter : MonoBehaviour
     void Update()
     {
         if (fix && Input.GetKeyDown(KeyCode.F)){
-            print("si");
             Variables.managers.position = transform.position;
             Variables.managers.boss = true;
             StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Boss, "UI"));
             //SceneManager.LoadScene(to);
         }
-        else
-            print (fix);
     }
     void OnTriggerEnter2D(Collider2D other){
         if (other.tag == "Boss") fix = true;

@@ -19,6 +19,7 @@ public class RandomEncounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         if (Variables.managers.portalCrossing){
             StartCoroutine(SimpleBlit.managers.FadeIn(TransType.Portal));
             Variables.managers.portalCrossing = false;
@@ -32,6 +33,10 @@ public class RandomEncounter : MonoBehaviour
 
         currentScene = SceneManager.GetActiveScene();
         variables.sceneName = currentScene.name;
+
+        if (Variables.managers.puta.Contains(Variables.managers.sceneName)) 
+            GameObject.FindGameObjectWithTag("Boss").gameObject.SetActive(false);
+
         switch (currentScene.name)
         {
             case "Elyiano":
@@ -62,6 +67,7 @@ public class RandomEncounter : MonoBehaviour
             }
             else
             {
+                GameObject.FindGameObjectWithTag("Boss").gameObject.SetActive(false);
                 Variables.managers.score += 3;
                 Variables.managers.puta.Add(currentScene.name);
                 if (Variables.managers.puta.Count == 4) {

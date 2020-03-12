@@ -12,6 +12,8 @@ public class SpaceDeath : MonoBehaviour
     {
         if (fix && Input.GetKeyDown(KeyCode.F)){
             Variables.managers.current_hp = 0;
+            Variables.managers.malditoAmin = true;
+            Variables.managers.portales["Kernel"] = 0;
             StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Portal, "Elyiano"));
             //SceneManager.LoadScene(to);
         }
