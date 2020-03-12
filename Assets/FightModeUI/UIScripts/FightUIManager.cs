@@ -17,7 +17,7 @@ public class FightUIManager : MonoBehaviour
     public UIMode current_ui_mode;
     public MonsterSO monster;
     public bool is_blocking = false;
-    
+
     // Main Scripts
     public Variables manager;
     private DialogSystem dialog;
@@ -110,7 +110,7 @@ public class FightUIManager : MonoBehaviour
         resetMode();
         attack_panel.SetActive(false);
         special_options.SetActive(false);
-        dialog.StartMonsterDialogRoutine(monster, dialog_panel.transform.GetChild(0).gameObject.GetComponent<Text>());
+        DialogSystem.Manager.StartMonsterDialogRoutine(monster, dialog_panel.transform.GetChild(0).gameObject.GetComponent<Text>());
     }
 
     private void monsterTipMode(){
@@ -118,7 +118,7 @@ public class FightUIManager : MonoBehaviour
         dialog_panel.transform.GetChild(0).gameObject.SetActive(true);
         attack_panel.SetActive(false);
         special_options.SetActive(false);
-        dialog.StartMonsterTipRoutine(monster, dialog_panel.transform.GetChild(0).gameObject.GetComponent<Text>());
+        DialogSystem.Manager.StartMonsterTipRoutine(monster, dialog_panel.transform.GetChild(0).gameObject.GetComponent<Text>());
 
         button_area.GetComponent<OptionManager>().can_move = true;
         special_options.GetComponent<OptionManager>().can_move = true;
