@@ -10,6 +10,7 @@ public class Teleport : MonoBehaviour
     public KeyCode buttom;
     public string to;
     public string from;
+    bool fix = false;
 
     Variables variables;
 
@@ -30,21 +31,27 @@ public class Teleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // RECORDAR CAMBIAR ESTO variables.portales[to] = 1;
+
         if(Input.GetKeyDown(buttom)){
             GetComponent<Animator>().enabled = true;
             foreach (BoxCollider2D box in this.GetComponents<BoxCollider2D>()){
                 box.enabled = true;
             }
             variables.portales[from] = 1;
-        }        
-    }
-    void OnTriggerStay2D(Collider2D other){
-
-        if (other.tag == "Player" && Input.GetKeyDown(KeyCode.F)){
+        }
+        else if (fix && Input.GetKeyDown(KeyCode.F)){
             variables.position = position;
-            print(variables.position);
-            //SimpleBlit.managers.FadeOut();
-            SceneManager.LoadScene(to);
+            Variables.managers.portalCrossing = true;
+            StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Portal, to));
+            //SceneManager.LoadScene(to);
         }
     }
+    void OnTriggerEnter2D(Collider2D other){
+        if (other.tag == "Player") fix = true;
+    }
+    void OnTriggerExit2D(Collider2D other){
+        if (other.tag == "Player") fix = false;
+    }
+
 }

@@ -293,13 +293,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105416229}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ad608a22ba9898f4e9bbde4064ebb621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   challenges: 
-  TransitionMaterial: {fileID: 0}
   preguntaAbrir: {fileID: 0}
 --- !u!1 &233137053
 GameObject:
@@ -1256,6 +1255,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1271,6 +1271,23 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f91d742f3be083418c26878ab8255c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransitionMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  boss: {fileID: 2100000, guid: a72374d17e99c76449826a99a5c3061d, type: 2}
+  portal: {fileID: 2100000, guid: 172471762b234934db5fb545dcaf1f00, type: 2}
+  random: {fileID: 2100000, guid: 7624d611bd330e44b80ef65275598a16, type: 2}
+  entry: {fileID: 2100000, guid: ca01149422f2acd4abd3ab1095f4d887, type: 2}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

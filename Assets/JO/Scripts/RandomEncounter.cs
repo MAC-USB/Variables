@@ -18,7 +18,13 @@ public class RandomEncounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(SimpleBlit.managers.FadeIn(TransType.Entry));
+        if (Variables.managers.portalCrossing){
+            StartCoroutine(SimpleBlit.managers.FadeIn(TransType.Portal));
+            Variables.managers.portalCrossing = false;
+        }
+        else{
+            StartCoroutine(SimpleBlit.managers.FadeIn(TransType.Entry));
+        }
         prevPos = gameObject.transform.position;
         challenges = Enumerable.Range(0, 4).ToList();
         variables = GameObject.Find("Variables").GetComponent<Variables>();
@@ -75,7 +81,7 @@ public class RandomEncounter : MonoBehaviour
         bool moved = prevPos != gameObject.transform.position;
         if (moved)
         {
-            int chance = Random.Range(0,1000);
+            int chance = Random.Range(0,10000000);
             prevPos = gameObject.transform.position;
             //Debug.Log(chance);
 

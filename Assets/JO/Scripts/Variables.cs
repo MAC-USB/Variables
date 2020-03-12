@@ -34,6 +34,7 @@ public class Variables : MonoBehaviour
     public List<int> challengesCompletedKonohagakure;
     public List<int> challengesCompletedNeovice;
     public List<int> challengesCompletedKernel;
+    public bool portalCrossing;
 
     // Quoka
     public int score = 1000;
