@@ -53,11 +53,17 @@ public class FightUIManager : MonoBehaviour
 
     public void scapeSecuence(){
         //manager.challengeCompleted = true;
-        SimpleBlit.managers.enabled = true;
         
-        audMan.Play("Huir");
+        if (Variables.managers.current_hp <= 0){
+            StartCoroutine("youRoutine");
+        }
+        else{
+            SimpleBlit.managers.enabled = true;
 
-        StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, manager.sceneName));
+            audMan.Play("Huir");
+
+            StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, manager.sceneName));
+        }
     }
 
     private void Update(){

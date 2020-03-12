@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Dummy
   sprite: {fileID: 21300000, guid: e9f97b58c0946ea4aa6da96ee3d5ce25, type: 3}
-  problem: Listar los archivos en /home que contengan el nombre del usuario y que
-    finalicen en .txt
+  problem: Listar los archivos en el mundo actual (Konohagakure) que contengan el
+    nombre del usuario y que finalicen en .txt
   solution: quantum
   tip: gsoc

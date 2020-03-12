@@ -18,7 +18,7 @@ public class SpaceDeath : MonoBehaviour
     void Update()
     {
         if (fix && Input.GetKeyDown(KeyCode.F)){
-            Variables.managers.current_hp = 0;
+            Variables.managers.current_hp = 10;
             Variables.managers.malditoAmin = true;
             Variables.managers.portales["Kernel"] = 0;
             audMan.Play("Death");

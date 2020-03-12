@@ -24,7 +24,7 @@ public class GlobalUI : MonoBehaviour
             can_count = true;
         }
 
-        if(SceneManager.GetActiveScene().name == "Kernel"){
+        if(SceneManager.GetActiveScene().name == "Kernel" || SceneManager.GetActiveScene().name == "UI"){
             can_count = false;
             panel.SetActive(false);
         }

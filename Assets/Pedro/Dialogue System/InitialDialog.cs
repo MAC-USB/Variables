@@ -50,6 +50,8 @@ public class InitialDialog : MonoBehaviour
                 
                 else if (sceneDiag == "Kernel")
                 {
+                    GameObject.Find("Neovice").GetComponent<Teleport>().DisableTeleport();
+                    GameObject.Find("Caballero").GetComponent<Movement>().enabled = false;
                     DialogSystem.Manager.StartConversation(Variables.managers.deadKernel);
                 }
             }

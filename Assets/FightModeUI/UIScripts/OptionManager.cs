@@ -93,6 +93,7 @@ public class OptionManager : MonoBehaviour
                 manager.updateUI(UIMode.tipMode);
                 break;
             case 2:
+                bar_controller.reduceBar("M", "f");
                 bar_controller.increaseBar();
                 manager.updateUI(UIMode.initialMode);
                 break;

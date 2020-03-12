@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Shyren
   sprite: {fileID: 21300000, guid: cdf20287dc1381b41a6e529cd9b91d52, type: 3}
-  problem: Las lineas de FILE estan enumeradas desde 1, todas con un numero distinto,
+  problem: Las lineas de TORIEL estan enumeradas desde 1, todas con un numero distinto,
     pero no estan ordenadas. Imprimir la linea con el numero 1, sustituyendo las
     "o" por "0"
   solution: naruto

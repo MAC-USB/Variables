@@ -37,8 +37,11 @@ public class MHController : MonoBehaviour
         switch (b){
             case "h":
                 if(t == "f"){
-                    if(manager.current_hp >= 2){
+                    if(manager.current_hp > 1){
                         manager.current_hp -= 2;
+                    }
+                    else{
+                        manager.current_hp = 0;
                     }
                 } else {
                     if(manager.current_hp >= 1){
@@ -51,6 +54,12 @@ public class MHController : MonoBehaviour
             case "m":
                 if(manager.current_mp >= 1){
                     manager.current_mp -= 1;
+                    m.localScale = new Vector2(getMScale() , m.localScale.y);
+                }
+                break;
+            case "M":
+                if(manager.current_mp >= 6){
+                    manager.current_mp -= 6;
                     m.localScale = new Vector2(getMScale() , m.localScale.y);
                 }
                 break;

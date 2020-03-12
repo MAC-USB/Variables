@@ -15,6 +15,6 @@ MonoBehaviour:
   id: Whimsum
   sprite: {fileID: 21300000, guid: febd23d7419a14f488d115706d9ca1f2, type: 3}
   problem: Sabemos que hay varios archivos que terminan con .log y estan a exactamente
-    2 directorios de profundidad en /var, encuentre dichos archivos
+    2 directorios de profundidad en este mundo (ElYiano), encuentre dichos archivos
   solution: error404
   tip: encuentralo
