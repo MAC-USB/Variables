@@ -311,6 +311,7 @@ GameObject:
   - component: {fileID: 233137055}
   - component: {fileID: 233137054}
   - component: {fileID: 233137056}
+  - component: {fileID: 233137057}
   m_Layer: 0
   m_Name: Undyne
   m_TagString: Boss
@@ -407,6 +408,32 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 9.25, y: 14.17}
+  m_EdgeRadius: 0
+--- !u!61 &233137057
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233137053}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.54613733, y: -0.8939681}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.25, y: 14.17}
+    newSize: {x: 9.25, y: 14.17}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15.739366, y: 18.846134}
   m_EdgeRadius: 0
 --- !u!1 &233223647
 GameObject:
