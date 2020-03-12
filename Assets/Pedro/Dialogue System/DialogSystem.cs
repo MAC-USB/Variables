@@ -74,6 +74,10 @@ public class DialogSystem : MonoBehaviour
         #endregion
     }
 
+    void Start(){
+        panelObject.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {

@@ -60,13 +60,13 @@ public class RandomEncounter : MonoBehaviour
 
             variables.challengeCompleted = false;
         }
-        
-        if (Variables.managers.score == 35)
-            Variables.managers.portales["Kernel"] = 1;
 
         Variables.managers.boss = false;
         foreach(int i in completedChallenges)
             challenges.Remove(i);
+
+        if (Variables.managers.score == 35)
+            Variables.managers.portales["Kernel"] = 1;
     }
 
     // Update is called once per frame

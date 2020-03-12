@@ -56,6 +56,7 @@ public class SimpleBlit : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
         GameObject.Find("Caballero").GetComponent<Movement>().enabled = true;
+        InitialDialog.Manager.StartInitial();
     }
     public IEnumerator FadeOut(TransType trans, string targetScene){
         GameObject.Find("Caballero").GetComponent<Movement>().enabled = false;

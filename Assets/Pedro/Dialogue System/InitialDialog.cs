@@ -30,7 +30,7 @@ public class InitialDialog : MonoBehaviour
         }
         else
         {
-            if (sceneDiag == "Elyiano" && Variables.managers.malditoAmin)
+            if ((sceneDiag == "Elyiano" || sceneDiag == "Kernel") && Variables.managers.malditoAmin)
             {
                 DialogSystem.Manager.StartConversation(deadConv);
             }
