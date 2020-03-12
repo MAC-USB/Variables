@@ -17,6 +17,7 @@ public class RandomEncounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SimpleBlit.managers.FadeIn(TransType.Entry);
         prevPos = gameObject.transform.position;
         challenges = Enumerable.Range(0, 4).ToList();
         variables = GameObject.Find("Variables").GetComponent<Variables>();
@@ -82,7 +83,7 @@ public class RandomEncounter : MonoBehaviour
                     //Load Scene
                     //SceneManager.LoadScene("BattleScene");
                     variables.position = transform.position;
-                    //StartCoroutine("FadeOut");
+                    StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Random, "UI"));
 
                 }
             }
