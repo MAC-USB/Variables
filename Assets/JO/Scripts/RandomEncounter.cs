@@ -43,11 +43,16 @@ public class RandomEncounter : MonoBehaviour
         if (variables.challengeCompleted)
         {
             //Debug.Log("Completado");
-            if (!Variables.managers.boss) Variables.managers.score += 1;
-            else Variables.managers.score += 3;
-
-            if (!Variables.managers.boss) completedChallenges.Add(variables.currentChallenge);
-            else Variables.managers.puta.Add(currentScene.name);
+            if (!Variables.managers.boss)
+            {
+                Variables.managers.score += 1;
+                completedChallenges.Add(variables.currentChallenge);
+            }
+            else
+            {
+                Variables.managers.score += 3;
+                Variables.managers.puta.Add(currentScene.name);
+            }
 
             variables.challengeCompleted = false;
         }
