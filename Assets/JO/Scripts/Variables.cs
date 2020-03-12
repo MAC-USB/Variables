@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Variables : MonoBehaviour
 {   
+    public static Variables managers{get;private set;}
+
 
     // Juancito
     public Vector3 position = new Vector3();
@@ -12,6 +14,10 @@ public class Variables : MonoBehaviour
 
     // Carlitos
     public string groupName;
+    public bool boss;
+    public int mp;
+    public int hp;
+    public List<string> puta;
     public int currentChallenge;
     public bool challengeCompleted;
     public string sceneName;
@@ -26,8 +32,19 @@ public class Variables : MonoBehaviour
     public int score = 1000;
     public string username = "Juan El egro";
     // Start is called before the first frame update
+    void Awake(){
+    #region  Singleton
+        if(managers == null && managers != this){
+            Debug.LogWarning("Mira mamaguevo hay 2 variables");
+            Destroy(gameObject);
+        }
+        managers = this;
+    #endregion
+    }
+
     void Start()
     {
+        
         portales.Add("Elyiano",0);
         portales.Add("Magicant",0);
         portales.Add("LaPuta",0);
@@ -37,10 +54,6 @@ public class Variables : MonoBehaviour
         
         DontDestroyOnLoad(gameObject);
 
-        if (FindObjectsOfType(GetType()).Length > 1)
-        {
-            Destroy(gameObject);
-        }
     }
 
     // Update is called once per frame
