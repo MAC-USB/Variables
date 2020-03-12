@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f585a67020f8f694f8c6705c309c9c93, type: 3}
+  m_Name: KernelMuerto
+  m_EditorClassIdentifier: 
+  dialogs: []
+  dialogsSO:
+  - talker: 2
+    dialog: "C\xE1spita.\nVolvieron.\nY con calzones nuevos."
+  - talker: 2
+    dialog: "Pero bueno, si tengo que matarlos un bill\xF3n de veces, lo har\xE9."
+  - talker: 2
+    dialog: "Aunque, primero me gustar\xEDa divertirme un poco destruy\xE9ndolos
+      lentamente."
+  - talker: 2
+    dialog: "No saben el placer que me produce la agon\xEDa ajena."
+  - talker: 2
+    dialog: Si son tan valientes para enfrentarse a mi, ejecuten "END" en la tty1.

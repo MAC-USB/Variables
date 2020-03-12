@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f585a67020f8f694f8c6705c309c9c93, type: 3}
+  m_Name: Kernel
+  m_EditorClassIdentifier: 
+  dialogs: []
+  dialogsSO:
+  - talker: 0
+    dialog: Que esta pasando? Aqui no deberia estar EAS?
+  - talker: 1
+    dialog: Yo tampoco entiendo, a menos qu- espera! Segun mi clarividencia, deberiamos
+      ir a ver a la tty1 y ejecutar "F-EAS" para despertar a EAS.
+  - talker: 0
+    dialog: Entendido, vamos lo mas rapido posible.

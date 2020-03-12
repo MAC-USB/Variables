@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f585a67020f8f694f8c6705c309c9c93, type: 3}
+  m_Name: ElyianoMuerto
+  m_EditorClassIdentifier: 
+  dialogs: []
+  dialogsSO:
+  - talker: 3
+    dialog: Finalmente.
+  - talker: 3
+    dialog: La hora ha llegado.
+  - talker: 3
+    dialog: "EAS, as\xED es como me conocen."
+  - talker: 3
+    dialog: Me disculpo por hacerlos pasar por tantos disgustos.
+  - talker: 3
+    dialog: "Era la \xFAnica forma de acceder al kernel."
+  - talker: 3
+    dialog: "La \xFAnica forma de saldar mis cuentas pendientes."
+  - talker: 3
+    dialog: Ahora les confiero mi poder.
+  - talker: 3
+    dialog: El poder que estuve guardando por generaciones para este momento.
+  - talker: 3
+    dialog: Pero para vencer al Space Invader, deberan vencer al resto de los monstruos.
+  - talker: 3
+    dialog: 'LOS MACKENZIES CONFIAMOS EN USTEDES.
+
+      PARA CREAR, PRIMERO HAY
+      QUE DESTRUIR.'
