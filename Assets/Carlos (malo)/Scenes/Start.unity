@@ -1482,6 +1482,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   position: {x: -0.75, y: -6, z: 0}
   malditoAmin: 0
+  todosMuertos: 0
+  dialogoTodosMuertos: {fileID: 11400000, guid: 9e749296a8bd0a3479f0f66218051f08,
+    type: 2}
+  deadKernel: {fileID: 11400000, guid: 2ecc743744090624795aba08113d0ae0, type: 2}
+  deadElyiano: {fileID: 11400000, guid: 2d2a3b664fabeaa46a137fe497b919e6, type: 2}
   groupName: 
   boss: 0
   initial_mp: 10
@@ -1498,6 +1503,7 @@ MonoBehaviour:
   challengesCompletedKonohagakure: 
   challengesCompletedNeovice: 
   challengesCompletedKernel: 
+  portalCrossing: 0
   score: 1000
   username: Juan El egro
 --- !u!4 &1376334620

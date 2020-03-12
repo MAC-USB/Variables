@@ -37,7 +37,7 @@ public class InitialDialog : MonoBehaviour
                     if (Variables.managers.todosMuertos) DialogSystem.Manager.onDialogFinish.AddListener(() => DialogSystem.Manager.StartConversation(Variables.managers.dialogoTodosMuertos));
                 }
                 
-                else if (sceneDiag == "Kernel" )
+                else if (sceneDiag == "Kernel")
                 {
                     DialogSystem.Manager.StartConversation(Variables.managers.deadKernel);
                 }
