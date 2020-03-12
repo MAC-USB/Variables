@@ -78,10 +78,6 @@ public class FightUIManager : MonoBehaviour
         current_ui_mode = mode;
     }
 
-    public void escapeSecuence(){
-        
-    }
-
     // Init and reset modes
     private void initialMode(){
         monster_image.SetActive(true);
