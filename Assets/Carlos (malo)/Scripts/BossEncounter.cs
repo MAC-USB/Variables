@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 public class BossEncounter : MonoBehaviour
 {
     bool fix = false;
+    AudioManager audMan;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        audMan = GameObject.Find("Variables").GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -19,6 +20,7 @@ public class BossEncounter : MonoBehaviour
         if (fix && Input.GetKeyDown(KeyCode.F)){
             Variables.managers.position = transform.position;
             Variables.managers.boss = true;
+            audMan.Play("Combat Boss");
             StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Boss, "UI"));
             //SceneManager.LoadScene(to);
         }
