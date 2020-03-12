@@ -64,7 +64,7 @@ public class Variables : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(current_hp < 0){
+        if(current_hp <= 0){
             reborn();
         }
     }
