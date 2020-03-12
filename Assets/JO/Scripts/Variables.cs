@@ -47,6 +47,8 @@ public class Variables : MonoBehaviour
 
     void Start()
     {
+        current_hp = initial_hp;
+        current_mp = initial_mp;
 
         portales.Add("Elyiano",0);
         portales.Add("Magicant",0);
