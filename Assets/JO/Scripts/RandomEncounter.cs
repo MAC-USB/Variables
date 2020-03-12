@@ -43,11 +43,8 @@ public class RandomEncounter : MonoBehaviour
                 completedChallenges = variables.challengesCompletedNeovice;
                 break;
         }
-        variables.challengeCompleted = true;
-        variables.boss = true;
         if (variables.challengeCompleted)
         {
-            //Debug.Log("Completado");
             if (!Variables.managers.boss)
             {
                 Variables.managers.score += 1;
@@ -55,7 +52,6 @@ public class RandomEncounter : MonoBehaviour
             }
             else
             {
-                Debug.Log("aaaaaaaaaaaah");
                 Variables.managers.score += 3;
                 Variables.managers.puta.Add(currentScene.name);
                 DialogSystem.Manager.onDialogFinish.AddListener(SelectButtons.Manager.ActivateButtons);
