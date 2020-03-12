@@ -30,7 +30,7 @@ public class Variables : MonoBehaviour
     public List<string> puta;
     public int currentChallenge;
     public bool challengeCompleted;
-    public string sceneName;
+    public string sceneName = "Start";
     public List<int> challengesCompletedElyiano;
     public List<int> challengesCompletedMagicant;
     public List<int> challengesCompletedLaPuta;
