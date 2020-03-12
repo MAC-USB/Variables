@@ -1557,6 +1557,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 19e61099267839b4abaccad7841ce171, type: 2}
   - {fileID: 11400000, guid: c14dcbb7f3e889249b3f804be4b4370e, type: 2}
   - {fileID: 11400000, guid: 061edb21fbbf5f641a3f898c1bd4c101, type: 2}
+  bossElyiano: {fileID: 11400000, guid: 95af768bf90843c4b8153b85e643dd0c, type: 2}
+  bossMagicant: {fileID: 11400000, guid: e6c57b3fdcefb24408f33c3bc7e4e646, type: 2}
+  bossLaPuta: {fileID: 11400000, guid: 90fcca87f58bffa4c9888e5abacfd8aa, type: 2}
+  bossKono: {fileID: 11400000, guid: 185c07fe73b6c594983a7e254c42f779, type: 2}
+  bossNeo: {fileID: 11400000, guid: 110f2e0ab3d516c428f6cf8ce95b28cd, type: 2}
 --- !u!1 &1561042710
 GameObject:
   m_ObjectHideFlags: 0

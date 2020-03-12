@@ -64,8 +64,16 @@ public class RandomEncounter : MonoBehaviour
             {
                 Variables.managers.score += 3;
                 Variables.managers.puta.Add(currentScene.name);
-                DialogSystem.Manager.onDialogFinish.AddListener(SelectButtons.Manager.ActivateButtons);
-                DialogSystem.Manager.StartConversation(preguntaAbrir);
+                if (Variables.managers.puta.Count == 4) {
+                    Variables.managers.portales["Neovice"] = 1;
+                }
+                else if (Variables.managers.puta.Count == 5) {
+                    Variables.managers.portales["Kernel"] = 1;
+                }
+                else {
+                    DialogSystem.Manager.onDialogFinish.AddListener(SelectButtons.Manager.ActivateButtons);
+                    DialogSystem.Manager.StartConversation(preguntaAbrir);
+                }
             }
 
             if (Variables.managers.score == 35){
@@ -76,12 +84,11 @@ public class RandomEncounter : MonoBehaviour
                 else{
                     Variables.managers.todosMuertos = true;
                 }
-                Variables.managers.portales["Kernel"] = 1;
             }
-
+            
             variables.challengeCompleted = false;
         }
-
+        if (Variables.managers.score == 35) Variables.managers.portales["Kernel"] = 1;
         Variables.managers.boss = false;
         foreach(int i in completedChallenges)
             challenges.Remove(i);

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BossEncounter : MonoBehaviour
 {
+    bool fix = false;
 
     // Start is called before the first frame update
     void Start()
@@ -15,15 +16,20 @@ public class BossEncounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    void OnTriggerStay2D(Collider2D other){
-
-        if (other.tag == "Player" && Input.GetKeyDown(KeyCode.F)){
-            // transition
-            // Load battle scene
+        if (fix && Input.GetKeyDown(KeyCode.F)){
+            print("si");
+            Variables.managers.position = transform.position;
             Variables.managers.boss = true;
             StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Boss, "UI"));
+            //SceneManager.LoadScene(to);
         }
+        else
+            print (fix);
+    }
+    void OnTriggerEnter2D(Collider2D other){
+        if (other.tag == "Boss") fix = true;
+    }
+    void OnTriggerExit2D(Collider2D other){
+        if (other.tag == "Boss") fix = false;
     }
 }

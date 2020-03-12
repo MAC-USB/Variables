@@ -33,7 +33,7 @@ public class Teleport : MonoBehaviour
     {
         // RECORDAR CAMBIAR ESTO variables.portales[to] = 1;
 
-        if(Input.GetKeyDown(buttom)){
+        if(Variables.managers.portales[to] == 1){
             GetComponent<Animator>().enabled = true;
             foreach (BoxCollider2D box in this.GetComponents<BoxCollider2D>()){
                 box.enabled = true;
