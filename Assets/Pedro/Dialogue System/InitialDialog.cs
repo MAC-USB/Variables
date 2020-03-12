@@ -7,7 +7,6 @@ public class InitialDialog : MonoBehaviour
     public static InitialDialog Manager { get; private set; }
 
     public ConversationSO initialConv = null;
-    public ConversationSO deadConv = null;
 
     public string sceneDiag = "Elyiano";
 
@@ -32,7 +31,16 @@ public class InitialDialog : MonoBehaviour
         {
             if ((sceneDiag == "Elyiano" || sceneDiag == "Kernel") && Variables.managers.malditoAmin)
             {
-                DialogSystem.Manager.StartConversation(deadConv);
+                if (sceneDiag == "Elyiano")
+                {
+                    DialogSystem.Manager.StartConversation(Variables.managers.deadElyiano);
+                    if (Variables.managers.todosMuertos) DialogSystem.Manager.onDialogFinish.AddListener(() => DialogSystem.Manager.StartConversation(Variables.managers.dialogoTodosMuertos));
+                }
+                
+                else if (sceneDiag == "Kernel" )
+                {
+                    DialogSystem.Manager.StartConversation(Variables.managers.deadKernel);
+                }
             }
         }
     }
