@@ -1649,7 +1649,8 @@ MonoBehaviour:
   current_ui_mode: 0
   monster: {fileID: 0}
   is_blocking: 0
-  you_died: {fileID: 1793538965}
+  you_died: {fileID: 851508098}
+  status: {fileID: 684488580}
   manager: {fileID: 0}
 --- !u!114 &1270950956
 MonoBehaviour:
