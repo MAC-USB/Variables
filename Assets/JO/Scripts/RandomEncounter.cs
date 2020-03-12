@@ -17,7 +17,7 @@ public class RandomEncounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SimpleBlit.managers.FadeIn(TransType.Entry);
+        StartCoroutine(SimpleBlit.managers.FadeIn(TransType.Entry));
         prevPos = gameObject.transform.position;
         challenges = Enumerable.Range(0, 4).ToList();
         variables = GameObject.Find("Variables").GetComponent<Variables>();

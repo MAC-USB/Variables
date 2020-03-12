@@ -1,10 +1,14 @@
 fileFormatVersion: 2
 guid: 4f91d742f3be083418c26878ab8255c7
-timeCreated: 1464212455
-licenseType: Pro
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - TransitionMaterial: {instanceID: 0}
+  - boss: {fileID: 2100000, guid: a72374d17e99c76449826a99a5c3061d, type: 2}
+  - portal: {fileID: 2100000, guid: 172471762b234934db5fb545dcaf1f00, type: 2}
+  - random: {fileID: 2100000, guid: 7624d611bd330e44b80ef65275598a16, type: 2}
+  - entry: {fileID: 2100000, guid: ca01149422f2acd4abd3ab1095f4d887, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

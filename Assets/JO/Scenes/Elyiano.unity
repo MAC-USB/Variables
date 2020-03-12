@@ -669,6 +669,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TransitionMaterial: {fileID: 2100000, guid: 7624d611bd330e44b80ef65275598a16, type: 2}
+  boss: {fileID: 2100000, guid: a72374d17e99c76449826a99a5c3061d, type: 2}
+  portal: {fileID: 2100000, guid: 172471762b234934db5fb545dcaf1f00, type: 2}
+  random: {fileID: 2100000, guid: 7624d611bd330e44b80ef65275598a16, type: 2}
+  entry: {fileID: 2100000, guid: ca01149422f2acd4abd3ab1095f4d887, type: 2}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
