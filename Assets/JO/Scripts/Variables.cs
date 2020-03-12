@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Variables : MonoBehaviour
 {   
@@ -15,8 +16,10 @@ public class Variables : MonoBehaviour
     // Carlitos
     public string groupName;
     public bool boss;
-    public int mp;
-    public int hp;
+    public int initial_mp = 10;
+    public int initial_hp = 10;
+    public int current_mp;
+    public int current_hp;
     public List<string> puta;
     public int currentChallenge;
     public bool challengeCompleted;
@@ -44,7 +47,9 @@ public class Variables : MonoBehaviour
 
     void Start()
     {
-        
+        current_hp = initial_hp;
+        current_mp = initial_mp;
+
         portales.Add("Elyiano",0);
         portales.Add("Magicant",0);
         portales.Add("LaPuta",0);
@@ -59,6 +64,14 @@ public class Variables : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(current_hp < 0){
+            reborn();
+        }
+    }
+
+    void reborn(){
+        SceneManager.LoadScene("Elyiano");
+        position = new Vector3(-0.75f, -6f, 0f);
+        current_hp = initial_hp;
     }
 }

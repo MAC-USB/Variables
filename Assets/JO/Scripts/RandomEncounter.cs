@@ -14,6 +14,8 @@ public class RandomEncounter : MonoBehaviour
     int currentChallenge;
     public Material TransitionMaterial;
 
+    public ConversationSO preguntaAbrir = null;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +46,6 @@ public class RandomEncounter : MonoBehaviour
         }
         if (variables.challengeCompleted)
         {
-            //Debug.Log("Completado");
             if (!Variables.managers.boss)
             {
                 Variables.managers.score += 1;
@@ -54,6 +55,8 @@ public class RandomEncounter : MonoBehaviour
             {
                 Variables.managers.score += 3;
                 Variables.managers.puta.Add(currentScene.name);
+                DialogSystem.Manager.onDialogFinish.AddListener(SelectButtons.Manager.ActivateButtons);
+                DialogSystem.Manager.StartConversation(preguntaAbrir);
             }
 
             variables.challengeCompleted = false;
@@ -89,6 +92,8 @@ public class RandomEncounter : MonoBehaviour
             }
         }
     }
+
+
     IEnumerator FadeIn(){
         float progress = 1;
         TransitionMaterial.SetFloat("_Cutoff", progress);

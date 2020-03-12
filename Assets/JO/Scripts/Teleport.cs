@@ -30,12 +30,11 @@ public class Teleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(buttom)){
-            this.GetComponent<Animator>().enabled = true;
-            foreach(BoxCollider2D box in this.GetComponents<BoxCollider2D>()){
+        if(variables.portales[to] == 1){
+            GetComponent<Animator>().enabled = true;
+            foreach (BoxCollider2D box in this.GetComponents<BoxCollider2D>()){
                 box.enabled = true;
             }
-            variables.portales[to] = 1;
             variables.portales[from] = 1;
         }        
     }
