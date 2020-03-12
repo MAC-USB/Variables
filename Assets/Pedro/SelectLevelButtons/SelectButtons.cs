@@ -43,6 +43,7 @@ public class SelectButtons : MonoBehaviour
 
     public void ActivateButtons()
     {
+        if (Variables.managers.puta.Count >= 4) return;
         butMagicant.gameObject.SetActive(true);
         butLaPuta.gameObject.SetActive(true);
         butKono.gameObject.SetActive(true);

@@ -80,6 +80,7 @@ public class Variables : MonoBehaviour
     void Update()
     {
         if(current_hp <= 0){
+            //Anim
             reborn();
         }
     }

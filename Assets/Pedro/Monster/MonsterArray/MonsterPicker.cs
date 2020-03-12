@@ -12,6 +12,12 @@ public class MonsterPicker : MonoBehaviour
     public List<MonsterSO> monstersKonohagakure = null;
     public List<MonsterSO> monstersNeovice = null;
 
+    public MonsterSO bossElyiano = null;
+    public MonsterSO bossMagicant = null;
+    public MonsterSO bossLaPuta = null;
+    public MonsterSO bossKono = null;
+    public MonsterSO bossNeo = null;
+
     private void Awake()
     {
         #region  Singleton
@@ -50,20 +56,24 @@ public class MonsterPicker : MonoBehaviour
     {
         string scene = Variables.managers.sceneName;
         Debug.Log(scene);
-
+        bool boss = Variables.managers.boss;
         switch (scene.Trim())
         {
             case "Elyiano":
-            
-                return monstersElyiano[monsterInd];
+                if (!boss) return monstersElyiano[monsterInd];
+                return bossElyiano;
             case "Magicant":
-                return monstersMagicant[monsterInd];
+                if (!boss) return monstersMagicant[monsterInd];
+                return bossMagicant;
             case "LaPuta":
-                return monstersLaPuta[monsterInd];
+                if (!boss) return monstersLaPuta[monsterInd];
+                return bossLaPuta;
             case "Konohagakure":
-                return monstersKonohagakure[monsterInd];
+                if (!boss) return monstersKonohagakure[monsterInd];
+                return bossKono;
             case "Neovice":
-                return monstersNeovice[monsterInd];
+                if (!boss) return monstersNeovice[monsterInd];
+                return bossNeo;
             default:
                 return null;
         }
