@@ -28,5 +28,5 @@ MonoBehaviour:
 
       Ya no escucho nada. Deberiamos anotar eso por si se nos
       olvida.'
-  - talker: 0
+  - talker: 1
     dialog: Me perdi, como era que nos moviamos?

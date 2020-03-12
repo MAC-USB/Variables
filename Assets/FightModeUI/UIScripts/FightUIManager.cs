@@ -40,6 +40,8 @@ public class FightUIManager : MonoBehaviour
         dialog = GameObject.Find("Variables").GetComponent<DialogSystem>();
         event_system_manager = GameObject.Find("EventSystem");
 
+        //audMan = GameObject.Find("Variables").GetComponent<AudioManager>();
+
         monster_image = transform.GetChild(0).gameObject;
         attack_panel = transform.GetChild(1).gameObject;
         dialog_panel = transform.GetChild(2).gameObject;
@@ -51,7 +53,9 @@ public class FightUIManager : MonoBehaviour
     public void scapeSecuence(){
         //manager.challengeCompleted = true;
         SimpleBlit.managers.enabled = true;
-        //Huir
+        
+        //audMan.Play("Huir");
+
         StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, manager.sceneName));
     }
 
@@ -73,7 +77,7 @@ public class FightUIManager : MonoBehaviour
         button_area.SetActive(false);
         status.SetActive(false);
         you_died.SetActive(true);
-        //Murio
+        //audMan.Play("Death");
         yield return new WaitForSeconds(3f);
         reborn();
     }
