@@ -22,14 +22,14 @@ public class SpaceDeath : MonoBehaviour
             Variables.managers.malditoAmin = true;
             Variables.managers.portales["Kernel"] = 0;
             audMan.Play("Death");
-            StartCoroutine("you_died");
-            SceneManager.LoadScene("Elyiano");
+            StartCoroutine("youRoutine");
         }
     }
 
     IEnumerator youRoutine(){
         you_died.SetActive(true);
         yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Elyiano");
     }
 
     void OnTriggerEnter2D(Collider2D other){
