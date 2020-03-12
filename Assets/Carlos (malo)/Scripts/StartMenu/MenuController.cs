@@ -48,7 +48,7 @@ public class MenuController : MonoBehaviour {
 		//FindObjectOfType<AudioManager> ().Play ("Intro");
 	}
 	void Update () {
-		if (cont == -1 && Input.GetKeyDown (KeyCode.Space))
+		if (cont == -1 && Input.GetKeyDown (KeyCode.Return))
 		{
 			cube.SetActive (false);	
 			macFore.SetActive (true);
