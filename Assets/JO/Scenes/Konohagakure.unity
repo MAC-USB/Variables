@@ -7868,7 +7868,7 @@ GameObject:
   - component: {fileID: 1253011936}
   m_Layer: 0
   m_Name: Elyiano
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8224,7 +8224,7 @@ GameObject:
   - component: {fileID: 1351969975}
   m_Layer: 0
   m_Name: LaPuta
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8499,7 +8499,7 @@ GameObject:
   - component: {fileID: 1429379392}
   m_Layer: 0
   m_Name: Magicant
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12574,7 +12574,7 @@ GameObject:
   - component: {fileID: 1931882116}
   m_Layer: 0
   m_Name: Neovice
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

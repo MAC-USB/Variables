@@ -11,6 +11,7 @@ public class Teleport : MonoBehaviour
     public string to;
     public string from;
     bool fix = false;
+    private bool isActive = true;
 
     Variables variables;
 
@@ -18,6 +19,8 @@ public class Teleport : MonoBehaviour
     void Start()
     {
         variables = GameObject.Find("Variables").GetComponent<Variables>();
+        DialogSystem.Manager.onDialogStart.AddListener(DisableTeleport);
+        DialogSystem.Manager.onDialogFinish.AddListener(EnableTeleport);
         if(variables.portales[to] == 1){
             GetComponent<Animator>().enabled = true;
             GetComponent<Animator>().Play("Portal");
@@ -30,8 +33,10 @@ public class Teleport : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        // RECORDAR CAMBIAR ESTO variables.portales[to] = 1;
+    {   
+        print("esto es isActive");
+        print(isActive);
+        if (!isActive) return;
 
         if(Variables.managers.portales[to] == 1){
             GetComponent<Animator>().enabled = true;
@@ -53,5 +58,8 @@ public class Teleport : MonoBehaviour
     void OnTriggerExit2D(Collider2D other){
         if (other.tag == "Player") fix = false;
     }
+
+    public void EnableTeleport() => isActive = true;
+    public void DisableTeleport() => isActive = false;
 
 }

@@ -6370,7 +6370,7 @@ GameObject:
   - component: {fileID: 1253011936}
   m_Layer: 0
   m_Name: Elyiano
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7102,7 +7102,7 @@ GameObject:
   - component: {fileID: 1629038711}
   m_Layer: 0
   m_Name: Konohagakure
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7413,7 +7413,7 @@ GameObject:
   - component: {fileID: 1834922516}
   m_Layer: 0
   m_Name: LaPuta
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10682,7 +10682,7 @@ GameObject:
   - component: {fileID: 2080538961}
   m_Layer: 0
   m_Name: Neovice
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

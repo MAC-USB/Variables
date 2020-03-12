@@ -35,6 +35,9 @@ public class SimpleBlit : MonoBehaviour
     public IEnumerator FadeIn(TransType trans){
         if (SceneManager.GetActiveScene().name != "UI")
             GameObject.Find("Caballero").GetComponent<Movement>().enabled = false;
+        foreach(GameObject g in GameObject.FindGameObjectsWithTag("Teleport")){
+            g.GetComponent<Teleport>().DisableTeleport();
+        }
         switch (trans){
             case TransType.Boss:
                 TransitionMaterial = boss;
@@ -58,7 +61,12 @@ public class SimpleBlit : MonoBehaviour
         }
         if (SceneManager.GetActiveScene().name != "UI")
             GameObject.Find("Caballero").GetComponent<Movement>().enabled = true;
+            
+        foreach(GameObject g in GameObject.FindGameObjectsWithTag("Teleport")){
+            g.GetComponent<Teleport>().EnableTeleport();
+        }
         InitialDialog.Manager.StartInitial();
+        
     }
     public IEnumerator FadeOut(TransType trans, string targetScene){
         if (SceneManager.GetActiveScene().name != "UI"){

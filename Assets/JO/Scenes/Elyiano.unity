@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 321241664}
   m_Layer: 0
   m_Name: LaPuta
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1146,7 +1146,7 @@ GameObject:
   - component: {fileID: 807236556}
   m_Layer: 0
   m_Name: Konohagakure
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6781,7 +6781,7 @@ GameObject:
   - component: {fileID: 1253011936}
   m_Layer: 0
   m_Name: Magicant
-  m_TagString: Untagged
+  m_TagString: Teleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
