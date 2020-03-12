@@ -1,0 +1,5179 @@
+fileFormatVersion: 2
+guid: af42a7e8ba7c2d44b9ecb065e790de53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3949051659483636451
+    second: Madera_0
+  - first:
+      213: -2096715406540147259
+    second: Madera_1
+  - first:
+      213: -5053406740831244159
+    second: Madera_2
+  - first:
+      213: -3117410944527348900
+    second: Madera_3
+  - first:
+      213: 5751190549755814686
+    second: Madera_4
+  - first:
+      213: -5397367387618224837
+    second: Madera_5
+  - first:
+      213: -5323218419194323064
+    second: Madera_6
+  - first:
+      213: 1170636548199059233
+    second: Madera_7
+  - first:
+      213: 4869553592769246494
+    second: Madera_8
+  - first:
+      213: 2802165192775567115
+    second: Madera_9
+  - first:
+      213: 4689360733526890718
+    second: Madera_10
+  - first:
+      213: -2146441782460958190
+    second: Madera_11
+  - first:
+      213: 4849038644075037632
+    second: Madera_12
+  - first:
+      213: -6659778130976748187
+    second: Madera_13
+  - first:
+      213: -1591216233689923574
+    second: Madera_14
+  - first:
+      213: 6525872494409514852
+    second: Madera_15
+  - first:
+      213: 5512037377048437513
+    second: Madera_16
+  - first:
+      213: 5234732630974233752
+    second: Madera_17
+  - first:
+      213: -9117136829553389039
+    second: Madera_18
+  - first:
+      213: -3415374850320956918
+    second: Madera_19
+  - first:
+      213: 6160986565549434819
+    second: Madera_20
+  - first:
+      213: -2967570399396554058
+    second: Madera_21
+  - first:
+      213: -262984953233671998
+    second: Madera_22
+  - first:
+      213: 979482638790499600
+    second: Madera_23
+  - first:
+      213: 6770196951175931077
+    second: Madera_24
+  - first:
+      213: -1136877128580970609
+    second: Madera_25
+  - first:
+      213: -5230212421035585376
+    second: Madera_26
+  - first:
+      213: -8087799069210272096
+    second: Madera_27
+  - first:
+      213: -8486204619539676275
+    second: Madera_28
+  - first:
+      213: -1522302167886021438
+    second: Madera_29
+  - first:
+      213: -3772315828295676930
+    second: Madera_30
+  - first:
+      213: -7404441339908028280
+    second: Madera_31
+  - first:
+      213: -7638343860697569777
+    second: Madera_32
+  - first:
+      213: 8923618435283917236
+    second: Madera_33
+  - first:
+      213: -5218504621635136345
+    second: Madera_34
+  - first:
+      213: 1229038451457397473
+    second: Madera_35
+  - first:
+      213: 6741388372779566696
+    second: Madera_36
+  - first:
+      213: -5000483400244944034
+    second: Madera_37
+  - first:
+      213: -6128492661393856274
+    second: Madera_38
+  - first:
+      213: 1406799296370111785
+    second: Madera_39
+  - first:
+      213: 1233162898154487172
+    second: Madera_40
+  - first:
+      213: 2967732696657400919
+    second: Madera_41
+  - first:
+      213: -5284096966568586426
+    second: Madera_42
+  - first:
+      213: -5115222293173132459
+    second: Madera_43
+  - first:
+      213: 3449209141751611188
+    second: Madera_44
+  - first:
+      213: -7343545993092703721
+    second: Madera_45
+  - first:
+      213: -2503070577305428214
+    second: Madera_46
+  - first:
+      213: -3599703066798339003
+    second: Madera_47
+  - first:
+      213: -820329568748390354
+    second: Madera_48
+  - first:
+      213: -4297815324491934302
+    second: Madera_49
+  - first:
+      213: -1834870980097048254
+    second: Madera_50
+  - first:
+      213: -2958947100700198105
+    second: Madera_51
+  - first:
+      213: 8177940887596083688
+    second: Madera_52
+  - first:
+      213: -7154900245125333887
+    second: Madera_53
+  - first:
+      213: 6185181597380385260
+    second: Madera_54
+  - first:
+      213: 3891201180236750905
+    second: Madera_55
+  - first:
+      213: -7748462665653369324
+    second: Madera_56
+  - first:
+      213: 87652999397065010
+    second: Madera_57
+  - first:
+      213: -3167406765679838655
+    second: Madera_58
+  - first:
+      213: 9120443203044497601
+    second: Madera_59
+  - first:
+      213: 5117038896504414114
+    second: Madera_60
+  - first:
+      213: 2278023305513665563
+    second: Madera_61
+  - first:
+      213: 5152261349632718210
+    second: Madera_62
+  - first:
+      213: -4788941819357116905
+    second: Madera_63
+  - first:
+      213: -6149579996527509543
+    second: Madera_64
+  - first:
+      213: 8303383224819397442
+    second: Madera_65
+  - first:
+      213: 5038671523403820051
+    second: Madera_66
+  - first:
+      213: 2160128946890999489
+    second: Madera_67
+  - first:
+      213: 7324300858504668108
+    second: Madera_68
+  - first:
+      213: 6742299513787289798
+    second: Madera_69
+  - first:
+      213: -7526619847657701804
+    second: Madera_70
+  - first:
+      213: 5010944985739454435
+    second: Madera_71
+  - first:
+      213: -61305068745044493
+    second: Madera_72
+  - first:
+      213: -5300404653730390756
+    second: Madera_73
+  - first:
+      213: -8753625698300684219
+    second: Madera_74
+  - first:
+      213: 4940381953671136957
+    second: Madera_75
+  - first:
+      213: -514382384356650203
+    second: Madera_76
+  - first:
+      213: 2521568450263483751
+    second: Madera_77
+  - first:
+      213: -1426465916797572219
+    second: Madera_78
+  - first:
+      213: -4018328729539138479
+    second: Madera_79
+  - first:
+      213: -2503155835979369293
+    second: Madera_80
+  - first:
+      213: 7631350931490311348
+    second: Madera_81
+  - first:
+      213: 8673445741375196652
+    second: Madera_82
+  - first:
+      213: 8286622012186151780
+    second: Madera_83
+  - first:
+      213: -8717965044127257192
+    second: Madera_84
+  - first:
+      213: 3410859062810042276
+    second: Madera_85
+  - first:
+      213: -2005505595382307516
+    second: Madera_86
+  - first:
+      213: 7103430723303778967
+    second: Madera_87
+  - first:
+      213: -3221690478241534361
+    second: Madera_88
+  - first:
+      213: 8177482351410829504
+    second: Madera_89
+  - first:
+      213: -7855594437555205815
+    second: Madera_90
+  - first:
+      213: -2819826442141185554
+    second: Madera_91
+  - first:
+      213: 2516094978232806687
+    second: Madera_92
+  - first:
+      213: -3494523409113977562
+    second: Madera_93
+  - first:
+      213: -7350584281091390961
+    second: Madera_94
+  - first:
+      213: -1458564796896222450
+    second: Madera_95
+  - first:
+      213: -1832034602754340499
+    second: Madera_96
+  - first:
+      213: 6344009824914459999
+    second: Madera_97
+  - first:
+      213: 3091996660561822283
+    second: Madera_98
+  - first:
+      213: -4603073241051679958
+    second: Madera_99
+  - first:
+      213: -5644556053356572715
+    second: Madera_100
+  - first:
+      213: 972936857270290701
+    second: Madera_101
+  - first:
+      213: 8535435233681775138
+    second: Madera_102
+  - first:
+      213: 1158384377717951310
+    second: Madera_103
+  - first:
+      213: 5159659967478958180
+    second: Madera_104
+  - first:
+      213: -7212823907918016908
+    second: Madera_105
+  - first:
+      213: -1001007515579410985
+    second: Madera_106
+  - first:
+      213: 3438737573212548422
+    second: Madera_107
+  - first:
+      213: 4862586481929306417
+    second: Madera_108
+  - first:
+      213: -1968714157390693736
+    second: Madera_109
+  - first:
+      213: 4335777161034620628
+    second: Madera_110
+  - first:
+      213: -5783889118609869109
+    second: Madera_111
+  - first:
+      213: -7644873181458619813
+    second: Madera_112
+  - first:
+      213: 5143812261911555188
+    second: Madera_113
+  - first:
+      213: -2170496848488197944
+    second: Madera_114
+  - first:
+      213: 2327261077213618935
+    second: Madera_115
+  - first:
+      213: -6964369732939765128
+    second: Madera_116
+  - first:
+      213: 4305615569305950581
+    second: Madera_117
+  - first:
+      213: 8414805438071803242
+    second: Madera_118
+  - first:
+      213: 671855312092090679
+    second: Madera_119
+  - first:
+      213: 801712259160184585
+    second: Madera_120
+  - first:
+      213: 7036666269558967649
+    second: Madera_121
+  - first:
+      213: 5491549911513922534
+    second: Madera_122
+  - first:
+      213: -788867890189219606
+    second: Madera_123
+  - first:
+      213: -3169758405557471237
+    second: Madera_124
+  - first:
+      213: -6113638974373819144
+    second: Madera_125
+  - first:
+      213: -414778653188442737
+    second: Madera_126
+  - first:
+      213: 8404950199920015381
+    second: Madera_127
+  - first:
+      213: -4131256640016940655
+    second: Madera_128
+  - first:
+      213: -6158121232029724706
+    second: Madera_129
+  - first:
+      213: -1782827291743799992
+    second: Madera_130
+  - first:
+      213: 6751335228035873538
+    second: Madera_131
+  - first:
+      213: -5899395008472364480
+    second: Madera_132
+  - first:
+      213: 6620785785653919925
+    second: Madera_133
+  - first:
+      213: 1297532734890073214
+    second: Madera_134
+  - first:
+      213: 921744389486271470
+    second: Madera_135
+  - first:
+      213: -5756986020288909000
+    second: Madera_136
+  - first:
+      213: -7070938348275501632
+    second: Madera_137
+  - first:
+      213: 2730555816144822748
+    second: Madera_138
+  - first:
+      213: -4417339350049860430
+    second: Madera_139
+  - first:
+      213: -1374364984248526385
+    second: Madera_140
+  - first:
+      213: 7582041824170255237
+    second: Madera_141
+  - first:
+      213: -352531929972599620
+    second: Madera_142
+  - first:
+      213: -4079617544145076165
+    second: Madera_143
+  - first:
+      213: 4228548021291965892
+    second: Madera_144
+  - first:
+      213: 4495252166979248798
+    second: Madera_145
+  - first:
+      213: 3135957339295642369
+    second: Madera_146
+  - first:
+      213: 1383448469386014212
+    second: Madera_147
+  - first:
+      213: -7393025750550374610
+    second: Madera_148
+  - first:
+      213: 500424186621061067
+    second: Madera_149
+  - first:
+      213: -2008193427551434865
+    second: Madera_150
+  - first:
+      213: 1552301071640149213
+    second: Madera_151
+  - first:
+      213: 8323625019671670313
+    second: Madera_152
+  - first:
+      213: -2477891934996140435
+    second: Madera_153
+  - first:
+      213: 8219715161048074228
+    second: Madera_154
+  - first:
+      213: 5038580274869985364
+    second: Madera_155
+  - first:
+      213: -4348939581727640268
+    second: Madera_156
+  - first:
+      213: -226666651916396956
+    second: Madera_157
+  - first:
+      213: -7771265281575131784
+    second: Madera_158
+  - first:
+      213: -6759052573960021275
+    second: Madera_159
+  - first:
+      213: -6815546259035496522
+    second: Madera_160
+  - first:
+      213: -3556274817218755194
+    second: Madera_161
+  - first:
+      213: 8397961192498382525
+    second: Madera_162
+  - first:
+      213: -6682182216789826153
+    second: Madera_163
+  - first:
+      213: 1735071754235027755
+    second: Madera_164
+  - first:
+      213: 1614396569361675293
+    second: Madera_165
+  - first:
+      213: -4275722110180328489
+    second: Madera_166
+  - first:
+      213: -5785203239739586707
+    second: Madera_167
+  - first:
+      213: -2971507047305867250
+    second: Madera_168
+  - first:
+      213: 5218825507374391143
+    second: Madera_169
+  - first:
+      213: -1560852286406222398
+    second: Madera_170
+  - first:
+      213: -4229636961343541053
+    second: Madera_171
+  - first:
+      213: -1352083665696871734
+    second: Madera_172
+  - first:
+      213: 5407564584574121830
+    second: Madera_173
+  - first:
+      213: -8779128594782851345
+    second: Madera_174
+  - first:
+      213: -7200068249214916114
+    second: Madera_175
+  - first:
+      213: 2001437742575349421
+    second: Madera_176
+  - first:
+      213: -7924883821132405484
+    second: Madera_177
+  - first:
+      213: 2344636618767413179
+    second: Madera_178
+  - first:
+      213: 6948855296214327
+    second: Madera_179
+  - first:
+      213: 298058142385897802
+    second: Madera_180
+  - first:
+      213: -2271308206634573603
+    second: Madera_181
+  - first:
+      213: 634391561248395325
+    second: Madera_182
+  - first:
+      213: 3693797315998275188
+    second: Madera_183
+  - first:
+      213: 201709076945386736
+    second: Madera_184
+  - first:
+      213: -5455183783367063479
+    second: Madera_185
+  - first:
+      213: 42534022462396843
+    second: Madera_186
+  - first:
+      213: 6882818520813970647
+    second: Madera_187
+  - first:
+      213: -8287325819998198963
+    second: Madera_188
+  - first:
+      213: -8983093455753889875
+    second: Madera_189
+  - first:
+      213: 2364828861238971169
+    second: Madera_190
+  - first:
+      213: -2025254110067172781
+    second: Madera_191
+  - first:
+      213: -8983446501824529316
+    second: Madera_192
+  - first:
+      213: 1703923337136413985
+    second: Madera_193
+  - first:
+      213: 1243866266544176194
+    second: Madera_194
+  - first:
+      213: 6988549524839570726
+    second: Madera_195
+  - first:
+      213: 3783586994088387386
+    second: Madera_196
+  - first:
+      213: -7263890232450416565
+    second: Madera_197
+  - first:
+      213: 5221963773527455676
+    second: Madera_198
+  - first:
+      213: 4635001995641305131
+    second: Madera_199
+  - first:
+      213: 646387210166003265
+    second: Madera_200
+  - first:
+      213: -1371509426925885486
+    second: Madera_201
+  - first:
+      213: 2906193687200939894
+    second: Madera_202
+  - first:
+      213: 2099253427707515319
+    second: Madera_203
+  - first:
+      213: 9149580476226766084
+    second: Madera_204
+  - first:
+      213: 3567992532289089218
+    second: Madera_205
+  - first:
+      213: 8524237095444073440
+    second: Madera_206
+  - first:
+      213: 6072693644392497656
+    second: Madera_207
+  - first:
+      213: -7672549279239728888
+    second: Madera_208
+  - first:
+      213: 3227691878458255895
+    second: Madera_209
+  - first:
+      213: -5489757419429041620
+    second: Madera_210
+  - first:
+      213: 6804902900496841691
+    second: Madera_211
+  - first:
+      213: 8100975357635830375
+    second: Madera_212
+  - first:
+      213: -2751488105629632376
+    second: Madera_213
+  - first:
+      213: 4458032692557528332
+    second: Madera_214
+  - first:
+      213: 1472765146954991388
+    second: Madera_215
+  - first:
+      213: 4075844221705028885
+    second: Madera_216
+  - first:
+      213: -1284075331985544011
+    second: Madera_217
+  - first:
+      213: 7769637057349217523
+    second: Madera_218
+  - first:
+      213: 518732999883204403
+    second: Madera_219
+  - first:
+      213: 1294830926310261977
+    second: Madera_220
+  - first:
+      213: 3479436058121533720
+    second: Madera_221
+  - first:
+      213: -7518899093685120745
+    second: Madera_222
+  - first:
+      213: 4650020551214284672
+    second: Madera_223
+  - first:
+      213: 1992050623329636081
+    second: Madera_224
+  - first:
+      213: 8061774622206585746
+    second: Madera_225
+  - first:
+      213: 1549446189206687695
+    second: Madera_226
+  - first:
+      213: -5451122732826929027
+    second: Madera_227
+  - first:
+      213: -3504659983442226037
+    second: Madera_228
+  - first:
+      213: 3776952463407901514
+    second: Madera_229
+  - first:
+      213: 5897409231052084352
+    second: Madera_230
+  - first:
+      213: -7883754352689870305
+    second: Madera_231
+  - first:
+      213: -4288042843476092467
+    second: Madera_232
+  - first:
+      213: 5369278643624377971
+    second: Madera_233
+  - first:
+      213: -2822492075093422698
+    second: Madera_234
+  - first:
+      213: -7888624999680497872
+    second: Madera_235
+  - first:
+      213: -5430511034759663176
+    second: Madera_236
+  - first:
+      213: -4585541124816596196
+    second: Madera_237
+  - first:
+      213: -5117305391435995402
+    second: Madera_238
+  - first:
+      213: 2440708676132501367
+    second: Madera_239
+  - first:
+      213: 1837145674848687901
+    second: Madera_240
+  - first:
+      213: 2097098945759522541
+    second: Madera_241
+  - first:
+      213: 7259399959250704780
+    second: Madera_242
+  - first:
+      213: 3476487526662424334
+    second: Madera_243
+  - first:
+      213: -3904633009860624115
+    second: Madera_244
+  - first:
+      213: 4323226212444457618
+    second: Madera_245
+  - first:
+      213: 898019948550453304
+    second: Madera_246
+  - first:
+      213: -457011599849890139
+    second: Madera_247
+  - first:
+      213: 4944278299167822689
+    second: Madera_248
+  - first:
+      213: -3263819018265912210
+    second: Madera_249
+  - first:
+      213: 803098178400218761
+    second: Madera_250
+  - first:
+      213: 3341917999992427392
+    second: Madera_251
+  - first:
+      213: 2430082744900282840
+    second: Madera_252
+  - first:
+      213: 3956727725846267558
+    second: Madera_253
+  - first:
+      213: 9193824803251232059
+    second: Madera_254
+  - first:
+      213: -6831946465160711927
+    second: Madera_255
+  - first:
+      213: -6531765195823568140
+    second: Madera_256
+  - first:
+      213: -8067129596836256250
+    second: Madera_257
+  - first:
+      213: 327972522638960181
+    second: Madera_258
+  - first:
+      213: 7529639714432446333
+    second: Madera_259
+  - first:
+      213: -5419689294651865429
+    second: Madera_260
+  - first:
+      213: -1691101853820990870
+    second: Madera_261
+  - first:
+      213: -8072225620285101638
+    second: Madera_262
+  - first:
+      213: 7711396369321199518
+    second: Madera_263
+  - first:
+      213: 4483731458525336542
+    second: Madera_264
+  - first:
+      213: 8888375023974885471
+    second: Madera_265
+  - first:
+      213: -238753292757116260
+    second: Madera_266
+  - first:
+      213: 4789744229413866420
+    second: Madera_267
+  - first:
+      213: -8976934102806325639
+    second: Madera_268
+  - first:
+      213: -7154851933615163355
+    second: Madera_269
+  - first:
+      213: 7881063990442605143
+    second: Madera_270
+  - first:
+      213: -582892155135146578
+    second: Madera_271
+  - first:
+      213: -6558381560455318019
+    second: Madera_272
+  - first:
+      213: 4881759123488511000
+    second: Madera_273
+  - first:
+      213: 3170148849207567521
+    second: Madera_274
+  - first:
+      213: 990936669098989026
+    second: Madera_275
+  - first:
+      213: -279937138292114942
+    second: Madera_276
+  - first:
+      213: 5502118504937816653
+    second: Madera_277
+  - first:
+      213: 4004208515150940091
+    second: Madera_278
+  - first:
+      213: 3885286470835130326
+    second: Madera_279
+  - first:
+      213: -8987646590597703873
+    second: Madera_280
+  - first:
+      213: 1435537438594229126
+    second: Madera_281
+  - first:
+      213: 204739250771126463
+    second: Madera_282
+  - first:
+      213: 8850581779399504834
+    second: Madera_283
+  - first:
+      213: -4271100174261707623
+    second: Madera_284
+  - first:
+      213: -4040217945184294858
+    second: Madera_285
+  - first:
+      213: 8777815289410567134
+    second: Madera_286
+  - first:
+      213: 3468579519420890141
+    second: Madera_287
+  - first:
+      213: -7156168866792529988
+    second: Madera_288
+  - first:
+      213: -3108243585433192295
+    second: Madera_289
+  - first:
+      213: 4972630539162094746
+    second: Madera_290
+  - first:
+      213: -6632544948624742398
+    second: Madera_291
+  - first:
+      213: -1778738440933798187
+    second: Madera_292
+  - first:
+      213: 2175136803197641882
+    second: Madera_293
+  - first:
+      213: -6080219298694529761
+    second: Madera_294
+  - first:
+      213: -738282482625637241
+    second: Madera_295
+  - first:
+      213: 838782614923094153
+    second: Madera_296
+  - first:
+      213: 9007044476537580683
+    second: Madera_297
+  - first:
+      213: -7889671681407520406
+    second: Madera_298
+  - first:
+      213: -5504100351935179340
+    second: Madera_299
+  - first:
+      213: -8870632130413148322
+    second: Madera_300
+  - first:
+      213: -2775887732304215860
+    second: Madera_301
+  - first:
+      213: 1289590335268792504
+    second: Madera_302
+  - first:
+      213: 2895443439284613564
+    second: Madera_303
+  - first:
+      213: 5442266060707198288
+    second: Madera_304
+  - first:
+      213: 6769814021728646442
+    second: Madera_305
+  - first:
+      213: 1963937839940688657
+    second: Madera_306
+  - first:
+      213: -3033931374348014966
+    second: Madera_307
+  - first:
+      213: 8107780890922490252
+    second: Madera_308
+  - first:
+      213: 4707242411083660412
+    second: Madera_309
+  - first:
+      213: 5368301777928958152
+    second: Madera_310
+  - first:
+      213: 3222402859549832744
+    second: Madera_311
+  - first:
+      213: -1220246836478927222
+    second: Madera_312
+  - first:
+      213: 7333203904768267858
+    second: Madera_313
+  - first:
+      213: 845866034646005100
+    second: Madera_314
+  - first:
+      213: 3482544198399045534
+    second: Madera_315
+  - first:
+      213: 4112059108331554307
+    second: Madera_316
+  - first:
+      213: -7054739532911564819
+    second: Madera_317
+  - first:
+      213: 5549341316106172872
+    second: Madera_318
+  - first:
+      213: 3768010105710348543
+    second: Madera_319
+  - first:
+      213: 5088122069607274038
+    second: Madera_320
+  - first:
+      213: 8604922548491581356
+    second: Madera_321
+  - first:
+      213: -8375681680249341333
+    second: Madera_322
+  - first:
+      213: 5846316232828650853
+    second: Madera_323
+  - first:
+      213: 4100576400718552931
+    second: Madera_324
+  - first:
+      213: 4785249717066898060
+    second: Madera_325
+  - first:
+      213: -6425434751837065010
+    second: Madera_326
+  - first:
+      213: -518911667227272957
+    second: Madera_327
+  - first:
+      213: 4282243540222875493
+    second: Madera_328
+  - first:
+      213: 3308457637369349438
+    second: Madera_329
+  - first:
+      213: 1598803875216202863
+    second: Madera_330
+  - first:
+      213: -6564603046135886683
+    second: Madera_331
+  - first:
+      213: -1607671467861385106
+    second: Madera_332
+  - first:
+      213: -1197007180698155295
+    second: Madera_333
+  - first:
+      213: -1538610401737260055
+    second: Madera_334
+  - first:
+      213: -3801001275392859811
+    second: Madera_335
+  - first:
+      213: 6051905171002766512
+    second: Madera_336
+  - first:
+      213: 542971541089588815
+    second: Madera_337
+  - first:
+      213: 218533778875524157
+    second: Madera_338
+  - first:
+      213: 3193049794411832282
+    second: Madera_339
+  - first:
+      213: -1976771882078004663
+    second: Madera_340
+  - first:
+      213: 4596492338920958521
+    second: Madera_341
+  - first:
+      213: 2149415850925207879
+    second: Madera_342
+  - first:
+      213: -1633376237604172047
+    second: Madera_343
+  - first:
+      213: -7579306207664316115
+    second: Madera_344
+  - first:
+      213: 7191651164883672047
+    second: Madera_345
+  - first:
+      213: -4809092411145761989
+    second: Madera_346
+  - first:
+      213: 9008002910403710565
+    second: Madera_347
+  - first:
+      213: 7702273342802355041
+    second: Madera_348
+  - first:
+      213: -4677996615050318790
+    second: Madera_349
+  - first:
+      213: 2823492491974472933
+    second: Madera_350
+  - first:
+      213: 9150884343834145800
+    second: Madera_351
+  - first:
+      213: -5808925475954056188
+    second: Madera_352
+  - first:
+      213: -7563960659981983308
+    second: Madera_353
+  - first:
+      213: 7088732216897582085
+    second: Madera_354
+  - first:
+      213: -2040474776162461316
+    second: Madera_355
+  - first:
+      213: -8639364138842189881
+    second: Madera_356
+  - first:
+      213: -1983225276158750419
+    second: Madera_357
+  - first:
+      213: 7999557675422826543
+    second: Madera_358
+  - first:
+      213: 1611504566064068440
+    second: Madera_359
+  - first:
+      213: 518998401318683090
+    second: Madera_360
+  - first:
+      213: 5983119518451843009
+    second: Madera_361
+  - first:
+      213: -1310148238416025976
+    second: Madera_362
+  - first:
+      213: 4716412365474762965
+    second: Madera_363
+  - first:
+      213: 3660245339046257365
+    second: Madera_364
+  - first:
+      213: -5599693062718097636
+    second: Madera_365
+  - first:
+      213: -7763854968524758046
+    second: Madera_366
+  - first:
+      213: -1007782648990135407
+    second: Madera_367
+  - first:
+      213: 4638019807409000631
+    second: Madera_368
+  - first:
+      213: -3991394518904337937
+    second: Madera_369
+  - first:
+      213: -6107118651559618042
+    second: Madera_370
+  - first:
+      213: -4102214461328328185
+    second: Madera_371
+  - first:
+      213: -6242167221914441649
+    second: Madera_372
+  - first:
+      213: 8740478828848051963
+    second: Madera_373
+  - first:
+      213: 4308143287926052613
+    second: Madera_374
+  - first:
+      213: -2684857203870194528
+    second: Madera_375
+  - first:
+      213: -1605694614940339054
+    second: Madera_376
+  - first:
+      213: -5562051580952185709
+    second: Madera_377
+  - first:
+      213: 5414134660903512701
+    second: Madera_378
+  - first:
+      213: 1274983882402545006
+    second: Madera_379
+  - first:
+      213: 4091734607941713785
+    second: Madera_380
+  - first:
+      213: -7673253454378667972
+    second: Madera_381
+  - first:
+      213: 3365064644560992279
+    second: Madera_382
+  - first:
+      213: -7562000415851094779
+    second: Madera_383
+  - first:
+      213: 559665905150791590
+    second: Madera_384
+  - first:
+      213: -3224779191875235646
+    second: Madera_385
+  - first:
+      213: -1907851570293935023
+    second: Madera_386
+  - first:
+      213: 9057587720847578901
+    second: Madera_387
+  - first:
+      213: -5691910755465348154
+    second: Madera_388
+  - first:
+      213: 4279137220518824202
+    second: Madera_389
+  - first:
+      213: -1152860823078435187
+    second: Madera_390
+  - first:
+      213: 6404949983840138249
+    second: Madera_391
+  - first:
+      213: 809152801862867746
+    second: Madera_392
+  - first:
+      213: 694933483651788308
+    second: Madera_393
+  - first:
+      213: 2851008874378715050
+    second: Madera_394
+  - first:
+      213: 6483792048509502344
+    second: Madera_395
+  - first:
+      213: 7594317322995660139
+    second: Madera_396
+  - first:
+      213: -3703744236755586599
+    second: Madera_397
+  - first:
+      213: 1821092416882402349
+    second: Madera_398
+  - first:
+      213: -1163188615232940675
+    second: Madera_399
+  - first:
+      213: 5042886528589815799
+    second: Madera_400
+  - first:
+      213: -7979357135756484106
+    second: Madera_401
+  - first:
+      213: -6226659254841290569
+    second: Madera_402
+  - first:
+      213: -1457779348598466742
+    second: Madera_403
+  - first:
+      213: 3160657580570202582
+    second: Madera_404
+  - first:
+      213: -6159649705905624988
+    second: Madera_405
+  - first:
+      213: -6084552612961024803
+    second: Madera_406
+  - first:
+      213: -3884951667134826541
+    second: Madera_407
+  - first:
+      213: -6988483749055258470
+    second: Madera_408
+  - first:
+      213: -885274261083746489
+    second: Madera_409
+  - first:
+      213: -8731262444148205965
+    second: Madera_410
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Madera_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e26033bf89ddc630800000000000000
+      internalID: 3949051659483636451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5f5165278f6e2e0800000000000000
+      internalID: -2096715406540147259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1807033e751bed9b0800000000000000
+      internalID: -5053406740831244159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b4880434bbcb4d0800000000000000
+      internalID: -3117410944527348900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1367c9755550df40800000000000000
+      internalID: 5751190549755814686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35dcba15f2b815b0800000000000000
+      internalID: -5397367387618224837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f1b162d012026b0800000000000000
+      internalID: -5323218419194323064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f8e700dbfee3010800000000000000
+      internalID: 1170636548199059233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15fcbf4131249340800000000000000
+      internalID: 4869553592769246494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b070a55756a43e620800000000000000
+      internalID: 2802165192775567115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed81989edb4f31140800000000000000
+      internalID: 4689360733526890718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21abb59329e4632e0800000000000000
+      internalID: -2146441782460958190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c30c3a94fe3b4340800000000000000
+      internalID: 4849038644075037632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d473c2317b393a0800000000000000
+      internalID: -6659778130976748187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00c31e144ddae9e0800000000000000
+      internalID: -1591216233689923574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f75c6457e809a50800000000000000
+      internalID: 6525872494409514852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903e5a75ac0be7c40800000000000000
+      internalID: 5512037377048437513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c7d53d79185a840800000000000000
+      internalID: 5234732630974233752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112d6d1bb5c697180800000000000000
+      internalID: -9117136829553389039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0201d74ba62a90d0800000000000000
+      internalID: -3415374850320956918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7278993a8308550800000000000000
+      internalID: 6160986565549434819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba1102d17211d6d0800000000000000
+      internalID: -2967570399396554058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8fb311490b95cf0800000000000000
+      internalID: -262984953233671998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d15cc3542d79d00800000000000000
+      internalID: 979482638790499600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_24
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4264ec14294fd50800000000000000
+      internalID: 6770196951175931077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f874aa566400930f0800000000000000
+      internalID: -1136877128580970609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a09650938d8a67b0800000000000000
+      internalID: -5230212421035585376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_27
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae9cf8f89d52cf80800000000000000
+      internalID: -8087799069210272096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_28
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d830f014cd1fa3a80800000000000000
+      internalID: -8486204619539676275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_29
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccb85a6e32bfdae0800000000000000
+      internalID: -1522302167886021438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb4ad1adba06abc0800000000000000
+      internalID: -3772315828295676930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888809ee4d32e3990800000000000000
+      internalID: -7404441339908028280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06e5d67ab62ff590800000000000000
+      internalID: -7638343860697569777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9993200bf07db70800000000000000
+      internalID: 8923618435283917236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a414b802b52497b0800000000000000
+      internalID: -5218504621635136345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e21a6ab5fb6e0110800000000000000
+      internalID: 1229038451457397473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8668974f1093e8d50800000000000000
+      internalID: 6741388372779566696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_37
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53a92757d6ba9ab0800000000000000
+      internalID: -5000483400244944034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8e705056833faa0800000000000000
+      internalID: -6128492661393856274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_39
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925f86aa184f58310800000000000000
+      internalID: 1406799296370111785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d70be4f131d1110800000000000000
+      internalID: 1233162898154487172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_41
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7549394f9218f2920800000000000000
+      internalID: 2967732696657400919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_42
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643d5f42ecd1ba6b0800000000000000
+      internalID: -5284096966568586426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553a14c0d641309b0800000000000000
+      internalID: -5115222293173132459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f7222907d0edf20800000000000000
+      internalID: 3449209141751611188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a57f9b3db761a90800000000000000
+      internalID: -7343545993092703721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f5aff529e434dd0800000000000000
+      internalID: -2503070577305428214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cc99ef1294b0ec0800000000000000
+      internalID: -3599703066798339003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_48
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28b0008a9a9d94f0800000000000000
+      internalID: -820329568748390354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_49
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a59d61bbb71b54c0800000000000000
+      internalID: -4297815324491934302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_50
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24184aea09a3986e0800000000000000
+      internalID: -1834870980097048254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb7910a45bfe6d0800000000000000
+      internalID: -2958947100700198105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_52
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ae4f98e1ed7170800000000000000
+      internalID: 8177940887596083688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_53
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cf2f5a220b4bc90800000000000000
+      internalID: -7154900245125333887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_54
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9142f64ed26d550800000000000000
+      internalID: 6185181597380385260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_55
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930a7916bd2500630800000000000000
+      internalID: 3891201180236750905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_56
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416ca5a324ee77490800000000000000
+      internalID: -7748462665653369324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2314f8440f7673100800000000000000
+      internalID: 87652999397065010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_58
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14afb78045c1b04d0800000000000000
+      internalID: -3167406765679838655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8d79f55c2529e70800000000000000
+      internalID: 9120443203044497601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_60
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af9000e3cf530740800000000000000
+      internalID: 5117038896504414114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14043b702a2d9f10800000000000000
+      internalID: 2278023305513665563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28535de4662808740800000000000000
+      internalID: 5152261349632718210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716c437c9c24a8db0800000000000000
+      internalID: -4788941819357116905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_64
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df3125339d48aaa0800000000000000
+      internalID: -6149579996527509543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_65
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2433c4dbc0b8b3370800000000000000
+      internalID: 8303383224819397442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_66
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c6c54fd05fce540800000000000000
+      internalID: 5038671523403820051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_67
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c60a7415d15afd10800000000000000
+      internalID: 2160128946890999489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3624333d425a560800000000000000
+      internalID: 7324300858504668108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c094908fa5719d50800000000000000
+      internalID: 6742299513787289798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_70
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e35f450231c8790800000000000000
+      internalID: -7526619847657701804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_71
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e766085ae37a8540800000000000000
+      internalID: 5010944985739454435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd45826d53362ff0800000000000000
+      internalID: -61305068745044493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9298dc0e2176b0800000000000000
+      internalID: -5300404653730390756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5489e0c5ecfd48680800000000000000
+      internalID: -8753625698300684219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6815b2633cf8440800000000000000
+      internalID: 4940381953671136957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52314bd52fb8cd8f0800000000000000
+      internalID: -514382384356650203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76589ca45296ef220800000000000000
+      internalID: 2521568450263483751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b24117ecc243ce0800000000000000
+      internalID: -1426465916797572219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_79
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ca21d7f470c38c0800000000000000
+      internalID: -4018328729539138479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4f00b8701034dd0800000000000000
+      internalID: -2503155835979369293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_81
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc83d35d3108e960800000000000000
+      internalID: 7631350931490311348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_82
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced0b49a2f44e5870800000000000000
+      internalID: 8673445741375196652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_83
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bc940d0defff270800000000000000
+      internalID: 8286622012186151780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_84
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89da58c6bf0930780800000000000000
+      internalID: -8717965044127257192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_85
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afd6b10f3ec55f20800000000000000
+      internalID: 3410859062810042276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_86
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445ed2069430b24e0800000000000000
+      internalID: -2005505595382307516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a2e157b94749260800000000000000
+      internalID: 7103430723303778967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_88
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ea72c44914a43d0800000000000000
+      internalID: -3221690478241534361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c85ed85fd04c7170800000000000000
+      internalID: 8177482351410829504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949ccf1da725bf290800000000000000
+      internalID: -7855594437555205815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9cbeb7ac6fdd8d0800000000000000
+      internalID: -2819826442141185554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_92
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1de5b64d07fae220800000000000000
+      internalID: 2516094978232806687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_93
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d69746975f08fc0800000000000000
+      internalID: -3494523409113977562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_94
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f024af99a8a7df990800000000000000
+      internalID: -7350584281091390961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_95
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e036c178b0322cbe0800000000000000
+      internalID: -1458564796896222450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_96
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d698a9e3c3e4396e0800000000000000
+      internalID: -1832034602754340499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_97
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d4d91e2537a0850800000000000000
+      internalID: 6344009824914459999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_98
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b424b77a49af8ea20800000000000000
+      internalID: 3091996660561822283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_99
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23320086499e10c0800000000000000
+      internalID: -4603073241051679958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_100
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df86e4fc228aa1b0800000000000000
+      internalID: -5644556053356572715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_101
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d090b76bae0908d00800000000000000
+      internalID: 972936857270290701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a94f25f15f37670800000000000000
+      internalID: 8535435233681775138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b8d334478631010800000000000000
+      internalID: 1158384377717951310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4680363476bca9740800000000000000
+      internalID: 5159659967478958180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_105
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e0a15fed6e6eb90800000000000000
+      internalID: -7212823907918016908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d59468d7f4bb12f0800000000000000
+      internalID: -1001007515579410985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_107
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d6f178a99d8bf20800000000000000
+      internalID: 3438737573212548422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131430964a06b7340800000000000000
+      internalID: 4862586481929306417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_109
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89af17097e8bda4e0800000000000000
+      internalID: -1968714157390693736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_110
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de58b42b56cb2c30800000000000000
+      internalID: 4335777161034620628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_111
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6f201bd7f7bbfa0800000000000000
+      internalID: -5783889118609869109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_112
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52af328854f7e590800000000000000
+      internalID: -7644873181458619813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_113
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c6986cffd726740800000000000000
+      internalID: 5143812261911555188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_114
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c091c7bd98d0e1e0800000000000000
+      internalID: -2170496848488197944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f229ee8e971c4020800000000000000
+      internalID: 2327261077213618935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_116
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aa4af60a6995f90800000000000000
+      internalID: -6964369732939765128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5795fd35c8e90cb30800000000000000
+      internalID: 4305615569305950581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_118
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d8b4e56f467c470800000000000000
+      internalID: 8414805438071803242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_119
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73155b1c8d8e25900800000000000000
+      internalID: 671855312092090679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90791535d01402b00800000000000000
+      internalID: 801712259160184585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_121
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d0908b0b247a160800000000000000
+      internalID: 7036666269558967649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb7d1e8c87e53c40800000000000000
+      internalID: 5491549911513922534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae84f8e55d06d05f0800000000000000
+      internalID: -788867890189219606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_124
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf730f43681c204d0800000000000000
+      internalID: -3169758405557471237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_125
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc07778ebdf72ba0800000000000000
+      internalID: -6113638974373819144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_126
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85b94433096e3af0800000000000000
+      internalID: -414778653188442737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_127
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518b41deca164a470800000000000000
+      internalID: 8404950199920015381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_128
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19101d769f3daa6c0800000000000000
+      internalID: -4131256640016940655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfc319dd55f98aa0800000000000000
+      internalID: -6158121232029724706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_130
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8453db326002247e0800000000000000
+      internalID: -1782827291743799992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bb8aaae9f81bd50800000000000000
+      internalID: 6751335228035873538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_132
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04aca420f73212ea0800000000000000
+      internalID: -5899395008472364480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_133
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b08bd7f791c1eb50800000000000000
+      internalID: 6620785785653919925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_134
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c5093d523c10210800000000000000
+      internalID: 1297532734890073214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_135
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebd90d73a1bacc00800000000000000
+      internalID: 921744389486271470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_136
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8313ac367b31b10b0800000000000000
+      internalID: -5756986020288909000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_137
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5f952290bfedd90800000000000000
+      internalID: -7070938348275501632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_138
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd160b43c02e4e520800000000000000
+      internalID: 2730555816144822748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_139
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b45ce3e34572b2c0800000000000000
+      internalID: -4417339350049860430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_140
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9912a14564dece0800000000000000
+      internalID: -1374364984248526385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_141
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583a2d12ed2d83960800000000000000
+      internalID: 7582041824170255237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_142
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb41006d31e8b1bf0800000000000000
+      internalID: -352531929972599620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_143
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3008c555794267c0800000000000000
+      internalID: -4079617544145076165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_144
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd9c48502deaa30800000000000000
+      internalID: 4228548021291965892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_145
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e926a9c6708526e30800000000000000
+      internalID: 4495252166979248798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_146
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103fe77c598258b20800000000000000
+      internalID: 3135957339295642369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_147
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40eafc69d0ff23310800000000000000
+      internalID: 1383448469386014212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_148
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e271123ff32b66990800000000000000
+      internalID: -7393025750550374610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_149
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7ef88752dd1f600800000000000000
+      internalID: 500424186621061067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_150
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87c58ea7b67124e0800000000000000
+      internalID: -2008193427551434865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcb197a991ea8510800000000000000
+      internalID: 1552301071640149213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_152
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e651ddad4738370800000000000000
+      internalID: 8323625019671670313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eefbed962cc9dd0800000000000000
+      internalID: -2477891934996140435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_154
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c929936b421270800000000000000
+      internalID: 8219715161048074228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_155
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4506aef7012ace540800000000000000
+      internalID: 5038580274869985364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_156
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435fc79fd7675a3c0800000000000000
+      internalID: -4348939581727640268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_157
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466981a81e7badcf0800000000000000
+      internalID: -226666651916396956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_158
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875636c766be62490800000000000000
+      internalID: -7771265281575131784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_159
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea5ce6be750332a0800000000000000
+      internalID: -6759052573960021275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_160
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf52f7a9c05a61a0800000000000000
+      internalID: -6815546259035496522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_161
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685420c45e295aec0800000000000000
+      internalID: -3556274817218755194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_162
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6c164d53d8b8470800000000000000
+      internalID: 8397961192498382525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_163
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7956fc37dae1443a0800000000000000
+      internalID: -6682182216789826153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_164
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b212ef25196341810800000000000000
+      internalID: 1735071754235027755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_165
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14796b502d776610800000000000000
+      internalID: 1614396569361675293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_166
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbfa60056599a4c0800000000000000
+      internalID: -4275722110180328489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_167
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6702e50e44d6bfa0800000000000000
+      internalID: -5785203239739586707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_168
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0093cd851613c6d0800000000000000
+      internalID: -2971507047305867250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_169
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f5ccff52efc6840800000000000000
+      internalID: 5218825507374391143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_170
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd96e18d1db65ae0800000000000000
+      internalID: -1560852286406222398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_171
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0714ed79f4d45c0800000000000000
+      internalID: -4229636961343541053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_172
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaa787d11f6c3de0800000000000000
+      internalID: -1352083665696871734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_173
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667f583d6578b0b40800000000000000
+      internalID: 5407564584574121830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_174
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee6e7e8e054a2680800000000000000
+      internalID: -8779128594782851345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9e9fe2318341c90800000000000000
+      internalID: -7200068249214916114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_176
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae6346d50986cb10800000000000000
+      internalID: 2001437742575349421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_177
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415a92b0728250290800000000000000
+      internalID: -7924883821132405484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_178
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf21051592d98020800000000000000
+      internalID: 2344636618767413179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_179
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735c68372ffa81000800000000000000
+      internalID: 6948855296214327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_180
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4103532d4ae22400800000000000000
+      internalID: 298058142385897802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_181
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0ed105831ba70e0800000000000000
+      internalID: -2271308206634573603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Madera_182
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3057b883cfcdc800800000000000000
+      internalID: 634391561248395325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
