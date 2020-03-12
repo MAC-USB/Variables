@@ -14,7 +14,7 @@ public class MenuController : MonoBehaviour {
 	public GameObject macHeart2;
 	public GameObject start;
 	public GameObject sure;
-	public GameObject name;
+	public GameObject nombre;
 	public GameObject messageBox;
 	public GameObject inputField;
 	public GameObject fondo;
@@ -36,7 +36,7 @@ public class MenuController : MonoBehaviour {
 		fondo.SetActive (false);
 		messageBox.SetActive (false);
 		inputField.SetActive (false);
-		name.SetActive (false);
+		nombre.SetActive (false);
 		sure.SetActive (false);
 
 		variables = GameObject.Find("Variables").GetComponent<Variables>();
@@ -72,7 +72,7 @@ public class MenuController : MonoBehaviour {
 			macHeart2.SetActive (false);
 			start.SetActive (false);
 			fondo.SetActive (false);
-			name.SetActive (true);
+			nombre.SetActive (true);
 			inputField.SetActive (true);
 			cont = 2;
 		}
@@ -80,7 +80,7 @@ public class MenuController : MonoBehaviour {
 		if (cont == 2) {
 			if (Input.GetKeyDown (KeyCode.Return) && !field.text.Equals (string.Empty)) 
 			{
-				name.SetActive (false);
+				nombre.SetActive (false);
 				sure.SetActive (true);
 				messageBox.SetActive (true);
 				cont = 3;
@@ -100,7 +100,7 @@ public class MenuController : MonoBehaviour {
 
 			if (Input.GetKeyDown (KeyCode.N)) 
 			{
-				name.SetActive (true);
+				nombre.SetActive (true);
 				sure.SetActive (false);
 				messageBox.SetActive (false);
 				cont = 2;
