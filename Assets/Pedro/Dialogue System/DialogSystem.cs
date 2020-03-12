@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
+
+public class DialogEvents : UnityEvent { }
 
 public enum Characters { Caballero, Maga, Falso_EAS, EAS, Nadie};
 
@@ -56,6 +59,9 @@ public class DialogSystem : MonoBehaviour
     public Text test;
     public MonsterSO testmonst;
 
+    public DialogEvents onDialogStart = new DialogEvents();
+    public DialogEvents onDialogFinish = new DialogEvents();
+
     private void Awake()
     {
         #region Singleton
@@ -95,6 +101,7 @@ public class DialogSystem : MonoBehaviour
         this.conversation = conversation;
         current = 0;
         panelObject.SetActive(true);
+        onDialogStart.Invoke();
         StartWriteDialogRoutine(this.conversation.dialogsSO[0]);
     }
 
@@ -112,6 +119,7 @@ public class DialogSystem : MonoBehaviour
             StopCoroutine(dialogTextRoutine);
             dialogText.text = "";
             panelObject.SetActive(false);
+            onDialogFinish.Invoke();
         }
         else StartWriteDialogRoutine(conversation.dialogsSO[current]);
     }

@@ -13,15 +13,23 @@ public class Movement : MonoBehaviour {
 
     Vector3 velocity;
 
+    /// <summary>
+    /// Indica si esta vaina esta activa
+    /// </summary>
+    private bool isActive = true;
+
 	void OnCollisionStay2D(Collision2D Other){
 	}
 
 	void Start(){
 		transform.position = GameObject.Find("Variables").GetComponent<Variables>().position;
+        DialogSystem.Manager.onDialogStart.AddListener(DisableMovement);
+        DialogSystem.Manager.onDialogFinish.AddListener(EnableMovement);
 	}
 	
 	// Update is called once per frame
-	void Update () {  
+	void Update () {
+        if (!isActive) return;
         velocity = Vector3.zero;
 		
 		if(Input.GetAxisRaw ("Vertical") > 0)
@@ -51,9 +59,10 @@ public class Movement : MonoBehaviour {
 			anim.SetBool ("Stop",true);
 		}
 
-        transform.position = transform.position + velocity;
-
-			
+        transform.Translate(velocity * Time.deltaTime);
+        //transform.position = transform.position + velocity;
 	}
-	
+
+    void EnableMovement() => isActive = true;
+    void DisableMovement() => isActive = false;
 }
