@@ -113,7 +113,14 @@ public class FightUIManager : MonoBehaviour
     }
 
     private void monsterTipMode(){
+        resetMode();
+        dialog_panel.transform.GetChild(0).gameObject.SetActive(true);
+        attack_panel.SetActive(false);
+        special_options.SetActive(false);
         dialog.StartMonsterTipRoutine(monster, dialog_panel.transform.GetChild(0).gameObject.GetComponent<Text>());
+
+        button_area.GetComponent<OptionManager>().can_move = true;
+        special_options.GetComponent<OptionManager>().can_move = true;
     }
 
     // Selection mode

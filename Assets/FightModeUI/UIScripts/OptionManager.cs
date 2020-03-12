@@ -85,7 +85,7 @@ public class OptionManager : MonoBehaviour
                 manager.updateUI(UIMode.attackMode);
                 break;
             case 1:
-                //manager.updateUI(UIMode.specialMode);
+                manager.updateUI(UIMode.tipMode);
                 break;
             case 2:
                 //manager.escapeSecuence();
