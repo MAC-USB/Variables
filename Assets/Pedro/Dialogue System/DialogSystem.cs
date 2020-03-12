@@ -77,17 +77,17 @@ public class DialogSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) StartConversation(conversation);
-        else if (Input.GetKeyDown(KeyCode.R)) StartMonsterDialogRoutine(testmonst, test);
-        else if (Input.GetKeyDown(KeyCode.T)) StartMonsterTipRoutine(testmonst, test);
-        if (writing)
-        {
-            if (Input.GetKeyDown(KeyCode.Return)) skip = true;
-        }
-        if (ready)
-        {
-            if (Input.GetKeyDown(KeyCode.Return)) NextDialog();
-        }
+        //if (Input.GetKeyDown(KeyCode.E)) StartConversation(conversation);
+        //else if (Input.GetKeyDown(KeyCode.R)) StartMonsterDialogRoutine(testmonst, test);
+        //else if (Input.GetKeyDown(KeyCode.T)) StartMonsterTipRoutine(testmonst, test);
+        //if (writing)
+        //{
+        //    if (Input.GetKeyDown(KeyCode.Return)) skip = true;
+        //}
+        //if (ready)
+        //{
+        //    if (Input.GetKeyDown(KeyCode.Return)) NextDialog();
+        //}
         
     }
 
