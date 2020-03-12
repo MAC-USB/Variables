@@ -33,7 +33,8 @@ public class SimpleBlit : MonoBehaviour
             Graphics.Blit(src, dst, TransitionMaterial);
     }
     public IEnumerator FadeIn(TransType trans){
-        GameObject.Find("Caballero").GetComponent<Movement>().enabled = false;
+        if (SceneManager.GetActiveScene().name != "UI")
+            GameObject.Find("Caballero").GetComponent<Movement>().enabled = false;
         switch (trans){
             case TransType.Boss:
                 TransitionMaterial = boss;
@@ -55,11 +56,14 @@ public class SimpleBlit : MonoBehaviour
             TransitionMaterial.SetFloat("_Cutoff", progress);
             yield return new WaitForSeconds(0.01f);
         }
-        GameObject.Find("Caballero").GetComponent<Movement>().enabled = true;
+        if (SceneManager.GetActiveScene().name != "UI")
+            GameObject.Find("Caballero").GetComponent<Movement>().enabled = true;
         InitialDialog.Manager.StartInitial();
     }
     public IEnumerator FadeOut(TransType trans, string targetScene){
-        GameObject.Find("Caballero").GetComponent<Movement>().enabled = false;
+        if (SceneManager.GetActiveScene().name != "UI"){
+            GameObject.Find("Caballero").GetComponent<Movement>().enabled = false;
+        }
         switch (trans){
             case TransType.Boss:
                 TransitionMaterial = boss;
