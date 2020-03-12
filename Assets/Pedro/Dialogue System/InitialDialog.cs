@@ -21,7 +21,7 @@ public class InitialDialog : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void StartInitial()
+    public void StartInitial()
     {
         if (!Variables.managers.diagInit[sceneDiag])
         {
