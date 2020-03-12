@@ -86,6 +86,7 @@ public class FightUIManager : MonoBehaviour
         button_area.SetActive(true);
 
         button_area.GetComponent<OptionManager>().can_move = true;
+        special_options.GetComponent<OptionManager>().can_move = true;
 
         monsterDialogMode();
     }
@@ -113,7 +114,7 @@ public class FightUIManager : MonoBehaviour
     // Selection mode
     private void specialMode(){
         resetMode();
-        dialog.StopMonsterDiag();
+        //dialog.StopMonsterDiag();
         attack_panel.SetActive(false);
         dialog_panel.transform.GetChild(0).gameObject.SetActive(false);
     }
@@ -121,7 +122,7 @@ public class FightUIManager : MonoBehaviour
     // Attack and block modes
     private void attackMode(){
         resetMode();
-        dialog.StopMonsterDiag();
+        //dialog.StopMonsterDiag();
         special_options.SetActive(false);
         dialog_panel.SetActive(false);
         attack_panel.GetComponent<InputField>().text = "";
