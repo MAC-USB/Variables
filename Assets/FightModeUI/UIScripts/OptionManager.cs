@@ -66,6 +66,13 @@ public class OptionManager : MonoBehaviour
         t.GetComponent<Text>().color = c;
     }
 
+    IEnumerator youRoutine(){
+        for(;;){
+            manager.you_died.Play("YouDied", 0);
+            yield return new WaitForSeconds(3f);
+        }
+    }
+
     private void setUIMode(){
         switch(index){
             case 0:
@@ -76,7 +83,9 @@ public class OptionManager : MonoBehaviour
                 break;
             case 2:
                 bar_controller.reduceBar("h", "s");
+                StartCoroutine("youRoutine");
                 manager.scapeSecuence();
+                StopCoroutine(youRoutine());
                 break;
         }
     }

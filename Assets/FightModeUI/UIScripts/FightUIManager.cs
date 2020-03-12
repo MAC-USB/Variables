@@ -18,6 +18,7 @@ public class FightUIManager : MonoBehaviour
     public UIMode current_ui_mode;
     public MonsterSO monster;
     public bool is_blocking = false;
+    public Animator you_died;
 
     // Main Scripts
     public Variables manager;
@@ -61,6 +62,7 @@ public class FightUIManager : MonoBehaviour
     private void Start(){
         monster = MonsterPicker.Picker.GetMonster(manager.currentChallenge);
         monster_image.GetComponent<Image>().sprite = monster.sprite;
+        monster_image.transform.GetChild(0).gameObject.GetComponent<Text>().text = monster.id;
         SimpleBlit.managers.enabled = false;
 
         updateUI(UIMode.initialMode);
