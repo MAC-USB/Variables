@@ -15,6 +15,7 @@ public class FightUIManager : MonoBehaviour
 {
     // Shared 
     public UIMode current_ui_mode;
+    
     public MonsterSO monster;
     public bool is_blocking = false;
     
@@ -38,21 +39,22 @@ public class FightUIManager : MonoBehaviour
         event_system_manager = GameObject.Find("EventSystem");
 
         monster_image = transform.GetChild(0).gameObject;
-        monster_image.GetComponent<Image>().sprite = monster.sprite;
         attack_panel = transform.GetChild(1).gameObject;
         dialog_panel = transform.GetChild(2).gameObject;
         special_options = transform.GetChild(3).gameObject;
         button_area = transform.GetChild(4).gameObject;
 
-        updateUI(UIMode.initialMode);
     }
 
     private void Start(){
-        //GetMonster
+        monster = MonsterPicker.Picker.GetMonster(manager.currentChallenge);
+        monster_image.GetComponent<Image>().sprite = monster.sprite;
+
+        updateUI(UIMode.initialMode);
     }
 
     private void Update(){
-        Debug.Log(current_ui_mode);
+        //Debug.Log(current_ui_mode);
     }
 
     public void updateUI(UIMode mode){
@@ -78,7 +80,7 @@ public class FightUIManager : MonoBehaviour
     }
 
     public void escapeSecuence(){
-
+        
     }
 
     // Init and reset modes

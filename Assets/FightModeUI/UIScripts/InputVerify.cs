@@ -7,9 +7,12 @@ public class InputVerify : MonoBehaviour
 {
     [HideInInspector()]
     public FightUIManager ui_manager;
+    [HideInInspector()]
+    public MHController bar_controller;
 
     private void Start(){
         ui_manager = GameObject.Find("MainPanel").GetComponent<FightUIManager>();
+        bar_controller = GameObject.Find("Status").GetComponent<MHController>();
     }
 
     private void Update(){
@@ -21,8 +24,7 @@ public class InputVerify : MonoBehaviour
                 ui_manager.manager.challengeCompleted = true;
             } else {
                 if(!ui_manager.is_blocking){
-                    //Perder vida
-                    //Barra de vida
+                    bar_controller.reduceBar("h", "f");
                 } else {
                     ui_manager.is_blocking = false;
                 }
