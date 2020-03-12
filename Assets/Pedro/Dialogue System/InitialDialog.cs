@@ -10,6 +10,8 @@ public class InitialDialog : MonoBehaviour
 
     public string sceneDiag = "Elyiano";
 
+    private bool xd = false;
+
     private void Awake()
     {
         if (Manager != null && Manager != this)
@@ -18,6 +20,7 @@ public class InitialDialog : MonoBehaviour
         }
         Manager = this;
     }
+
 
     // Start is called before the first frame update
     public void StartInitial()
@@ -34,7 +37,11 @@ public class InitialDialog : MonoBehaviour
                 if (sceneDiag == "Elyiano")
                 {
                     DialogSystem.Manager.StartConversation(Variables.managers.deadElyiano);
-                    if (Variables.managers.todosMuertos) DialogSystem.Manager.onDialogFinish.AddListener(() => DialogSystem.Manager.StartConversation(Variables.managers.dialogoTodosMuertos));
+                    if (Variables.managers.todosMuertos)
+                    {
+                        DialogSystem.Manager.onDialogFinish.AddListener(dale);
+                        StartCoroutine(maldito());
+                    }
                 }
                 
                 else if (sceneDiag == "Kernel")
@@ -43,5 +50,17 @@ public class InitialDialog : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void dale()
+    {
+        xd = true;
+    }
+
+    public IEnumerator maldito()
+    {
+        while (!xd) yield return new WaitForSeconds(0);
+        DialogSystem.Manager.onDialogFinish.RemoveListener(dale);
+        DialogSystem.Manager.StartConversation(Variables.managers.dialogoTodosMuertos);
     }
 }
