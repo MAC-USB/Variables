@@ -110,7 +110,7 @@ public class RandomEncounter : MonoBehaviour
             bool moved = prevPos != gameObject.transform.position;
             if (moved)
             {
-                int chance = Random.Range(0,100000);
+                int chance = Random.Range(0,10000000);
                 prevPos = gameObject.transform.position;
                 //Debug.Log(chance);
 

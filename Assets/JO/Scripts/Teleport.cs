@@ -21,6 +21,8 @@ public class Teleport : MonoBehaviour
         variables = GameObject.Find("Variables").GetComponent<Variables>();
         DialogSystem.Manager.onDialogStart.AddListener(DisableTeleport);
         DialogSystem.Manager.onDialogFinish.AddListener(EnableTeleport);
+        print(to);
+        print(variables.portales[to]);
         if(variables.portales[to] == 1){
             GetComponent<Animator>().enabled = true;
             GetComponent<Animator>().Play("Portal");
@@ -33,9 +35,7 @@ public class Teleport : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {   
-        print("esto es isActive");
-        print(isActive);
+    {  
         if (!isActive) return;
 
         if(Variables.managers.portales[to] == 1){

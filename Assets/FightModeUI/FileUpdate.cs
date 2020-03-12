@@ -5,7 +5,7 @@ public class FileUpdate
 {
     //public static string ruta = @"C:\Users\Carlos Sivira\Desktop\chance.txt";
     //public static string ruta = @"/tmp/chance";
-	public static string ruta = @"C:\chance.txt";
+	public static string ruta = @"C:\Users\Carlos\chance.txt";
 
     public static void update()
 	{

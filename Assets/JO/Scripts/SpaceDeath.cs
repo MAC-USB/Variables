@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpaceDeath : MonoBehaviour
 {
@@ -14,8 +15,9 @@ public class SpaceDeath : MonoBehaviour
             Variables.managers.current_hp = 0;
             Variables.managers.malditoAmin = true;
             Variables.managers.portales["Kernel"] = 0;
-            StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Portal, "Elyiano"));
-            //SceneManager.LoadScene(to);
+            
+            //StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Portal, "Elyiano"));
+            SceneManager.LoadScene("Elyiano");
         }
     }
 
