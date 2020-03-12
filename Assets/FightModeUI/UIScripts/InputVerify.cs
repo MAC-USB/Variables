@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class InputVerify : MonoBehaviour
 {
+    [HideInInspector()]
     public FightUIManager ui_manager;
 
     private void Start(){
@@ -16,6 +17,7 @@ public class InputVerify : MonoBehaviour
             if(checkAnswer(ui_manager.monster.solution)){
                 //Respuesta
                 //Ganar y salir de combate. Secuencia de escape
+                Debug.Log("Win");
                 ui_manager.manager.challengeCompleted = true;
             } else {
                 //Perder vida
