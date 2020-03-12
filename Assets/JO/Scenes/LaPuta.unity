@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 233137056}
   m_Layer: 0
   m_Name: Undyne
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -438,7 +438,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialConv: {fileID: 11400000, guid: c2f01fb0f7492804ab86ecfff734196c, type: 2}
-  deadConv: {fileID: 0}
   sceneDiag: LaPuta
 --- !u!4 &233223649
 Transform:

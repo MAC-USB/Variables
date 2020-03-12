@@ -7859,7 +7859,7 @@ GameObject:
   - component: {fileID: 1637911148}
   m_Layer: 0
   m_Name: Sans
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8931,7 +8931,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialConv: {fileID: 11400000, guid: 56fa7a37afb72b84ea648d762bb99cc9, type: 2}
-  deadConv: {fileID: 0}
   sceneDiag: Neovice
 --- !u!4 &1943456488
 Transform:

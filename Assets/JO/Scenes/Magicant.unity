@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 469168330}
   m_Layer: 0
   m_Name: muffet
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7030,7 +7030,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialConv: {fileID: 11400000, guid: 0799d94ff2ef2ad4bb13891acd4f9970, type: 2}
-  deadConv: {fileID: 0}
   sceneDiag: Magicant
 --- !u!4 &1537479502
 Transform:
