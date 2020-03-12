@@ -39,16 +39,19 @@ public class RandomEncounter : MonoBehaviour
             case "Neovice":
                 completedChallenges = variables.challengesCompletedNeovice;
                 break;
-            case "Kernel":
-                completedChallenges = variables.challengesCompletedKernel;
-                break;
         }
         if (variables.challengeCompleted)
         {
             //Debug.Log("Completado");
-            completedChallenges.Add(variables.currentChallenge);
+            if (!Variables.managers.boss) Variables.managers.score += 1;
+            else Variables.managers.score += 3;
+
+            if (!Variables.managers.boss) completedChallenges.Add(variables.currentChallenge);
+            else Variables.managers.puta.Add(currentScene.name);
+
             variables.challengeCompleted = false;
         }
+        Variables.managers.boss = false;
         foreach(int i in completedChallenges)
             challenges.Remove(i);
     }
@@ -72,10 +75,7 @@ public class RandomEncounter : MonoBehaviour
                     variables.currentChallenge = currentChallenge;
                     //Load Scene
                     //SceneManager.LoadScene("BattleScene");
-                    variables.challengeCompleted = true;
                     variables.position = transform.position;
-                    Debug.Log(currentChallenge);
-                    SceneManager.LoadScene(currentScene.name);
                 }
             }
         }
