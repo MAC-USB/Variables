@@ -749,6 +749,21 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5719523164496470971, guid: 721900cf6381d4042b6be56bad7d08ce,
+        type: 3}
+      propertyPath: m_Text
+      value: Magicant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5719523164642033458, guid: 721900cf6381d4042b6be56bad7d08ce,
+        type: 3}
+      propertyPath: m_Text
+      value: Konohagakure
+      objectReference: {fileID: 0}
+    - target: {fileID: 5719523165094907821, guid: 721900cf6381d4042b6be56bad7d08ce,
+        type: 3}
+      propertyPath: m_Text
+      value: LaPuta
+      objectReference: {fileID: 0}
     - target: {fileID: 5719523165192857068, guid: 721900cf6381d4042b6be56bad7d08ce,
         type: 3}
       propertyPath: m_AnchoredPosition.y
