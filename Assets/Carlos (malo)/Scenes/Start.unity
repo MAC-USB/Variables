@@ -530,6 +530,7 @@ MonoBehaviour:
   count: {fileID: 1093265084}
   you_died: {fileID: 508934472}
   leader_board: {fileID: 1750467736}
+  leader_manager: {fileID: 1497657976}
 --- !u!1 &162913911
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,7 +3049,6 @@ MonoBehaviour:
   challengesCompletedKernel: 
   portalCrossing: 0
   score: 1000
-  username: Juan El egro
 --- !u!4 &1376334620
 Transform:
   m_ObjectHideFlags: 0

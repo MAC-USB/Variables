@@ -7,6 +7,7 @@ public class SpaceDeath : MonoBehaviour
 {
 
     bool fix = false;
+    public GameObject you_died;
 
     // Update is called once per frame
     void Update()
@@ -16,11 +17,15 @@ public class SpaceDeath : MonoBehaviour
             Variables.managers.malditoAmin = true;
             Variables.managers.portales["Kernel"] = 0;
             
-            //StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Portal, "Elyiano"));
+            StartCoroutine("you_died");
             SceneManager.LoadScene("Elyiano");
         }
     }
 
+    IEnumerator youRoutine(){
+        you_died.SetActive(true);
+        yield return new WaitForSeconds(3f);
+    }
 
     void OnTriggerEnter2D(Collider2D other){
         if (other.tag == "Player") fix = true;
