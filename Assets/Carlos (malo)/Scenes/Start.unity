@@ -1460,6 +1460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1376334620}
   - component: {fileID: 1376334619}
+  - component: {fileID: 1376334621}
   m_Layer: 0
   m_Name: Variables
   m_TagString: Untagged
@@ -1482,10 +1483,12 @@ MonoBehaviour:
   position: {x: -0.75, y: -6, z: 0}
   groupName: 
   boss: 0
-  mp: 0
-  hp: 0
+  initial_mp: 10
+  initial_hp: 10
+  current_mp: 0
+  current_hp: 0
   puta: []
-  currentChallenge: 0
+  currentChallenge: 1
   challengeCompleted: 0
   sceneName: 
   challengesCompletedElyiano: 
@@ -1510,6 +1513,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1376334621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376334618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff79f2c61a8256b4a81877e6421c2426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monstersElyiano:
+  - {fileID: 11400000, guid: 1a9c94c1467cf8744a1267820b37007f, type: 2}
+  - {fileID: 11400000, guid: 185c07fe73b6c594983a7e254c42f779, type: 2}
+  - {fileID: 11400000, guid: b4444f93ab16a224ebf5c9625ebdcf6b, type: 2}
+  - {fileID: 11400000, guid: 4b6472d70095c44409086c1c42c03e34, type: 2}
+  monstersMagicant: []
+  monstersLaPuta: []
+  monstersKonohagakure: []
+  monstersNeovice: []
 --- !u!1 &1561042710
 GameObject:
   m_ObjectHideFlags: 0

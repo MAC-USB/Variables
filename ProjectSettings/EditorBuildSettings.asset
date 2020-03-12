@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/JO/Scenes/Kernel.unity
     guid: e2a0e2f3b1a949043b9a0725a50772c7
+  - enabled: 1
+    path: Assets/Carlos (malo)/Scenes/Start.unity
+    guid: f9c633b425ac47641a9032ab75b205a5
+  - enabled: 1
+    path: Assets/FightModeUI/UI.unity
+    guid: 2a42b4780e21eb44f82c0466f2007c05
   m_configObjects: {}
