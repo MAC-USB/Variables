@@ -176,4 +176,6 @@ public class FightUIManager : MonoBehaviour
         //EventSystem.current.SetSelectedGameObject(attack_panel.gameObject, null);
         //attack_panel.GetComponent<InputField>().OnPointerClick(null);
     }
+
+    
 }

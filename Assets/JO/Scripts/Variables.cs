@@ -18,6 +18,7 @@ public class Variables : MonoBehaviour
     public ConversationSO dialogoTodosMuertos = null;
     public ConversationSO deadKernel = null;
     public ConversationSO deadElyiano = null;
+    public bool dialogoMuerteDicho;
 
     // Carlitos
     public string groupName;

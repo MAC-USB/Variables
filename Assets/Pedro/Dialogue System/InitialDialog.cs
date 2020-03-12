@@ -36,7 +36,11 @@ public class InitialDialog : MonoBehaviour
             {
                 if (sceneDiag == "Elyiano")
                 {
-                    DialogSystem.Manager.StartConversation(Variables.managers.deadElyiano);
+                    if (!Variables.managers.dialogoMuerteDicho)
+                    {
+                        DialogSystem.Manager.StartConversation(Variables.managers.deadElyiano);
+                        Variables.managers.dialogoMuerteDicho = true;
+                    }
                     if (Variables.managers.todosMuertos)
                     {
                         DialogSystem.Manager.onDialogFinish.AddListener(dale);
