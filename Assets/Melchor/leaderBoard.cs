@@ -107,12 +107,12 @@ public class leaderBoard : MonoBehaviour {
 	//void TaskOnClick()
 	// void SubmitScore()
 	// {
-	// 	Variables gameManager = GameObject.Find("Variables").GetComponent<Variables>();
+	// 	Variables gameManager = GameObject.Find("Variables").GetComponent<managers>();
 	// 	// var usernametext = FieldUsername.text;// this would be set somewhere else in the code
 	// 	// var scoretext = FieldScore.text;
 	// 	MyClass myObject = new MyClass();
 	// 	// myObject.username = FieldUsername.text;
-	// 	myObject.username = gameManager.username;
+	// 	myObject.username = gameManager.groupName;
 	// 	// myObject.score = FieldScore.text;
 	// 	myObject.score = gameManager.score.ToString();
 	// 	string json = JsonUtility.ToJson(myObject);

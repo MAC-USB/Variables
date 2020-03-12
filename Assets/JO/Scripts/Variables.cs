@@ -7,7 +7,6 @@ public class Variables : MonoBehaviour
 {   
     public static Variables managers{get;private set;}
 
-
     // Juancito
     public Vector3 position = new Vector3();
     public Dictionary<string, int> portales = new Dictionary<string, int>();
@@ -79,14 +78,8 @@ public class Variables : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(current_hp <= 0){
-            reborn();
-        }
+        
     }
 
-    void reborn(){
-        SceneManager.LoadScene("Elyiano");
-        position = new Vector3(-0.75f, -6f, 0f);
-        current_hp = initial_hp;
-    }
+   
 }

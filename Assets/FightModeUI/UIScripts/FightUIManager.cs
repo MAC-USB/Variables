@@ -18,6 +18,8 @@ public class FightUIManager : MonoBehaviour
     public UIMode current_ui_mode;
     public MonsterSO monster;
     public bool is_blocking = false;
+    public GameObject you_died;
+    public GameObject status;
 
     // Main Scripts
     public Variables manager;
@@ -47,7 +49,7 @@ public class FightUIManager : MonoBehaviour
     }
 
     public void scapeSecuence(){
-        manager.challengeCompleted = true;
+        //manager.challengeCompleted = true;
         SimpleBlit.managers.enabled = true;
         StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, manager.sceneName));
     }
@@ -56,12 +58,37 @@ public class FightUIManager : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape)){
             updateUI(UIMode.initialMode);
         }
+
+        if(manager.current_hp <= 0){
+            StartCoroutine("youRoutine");
+        }
+    }
+
+    IEnumerator youRoutine(){
+        monster_image.SetActive(false);
+        attack_panel.SetActive(false);
+        dialog_panel.SetActive(false);
+        special_options.SetActive(false);
+        button_area.SetActive(false);
+        status.SetActive(false);
+        you_died.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        reborn();
+    }
+
+    void reborn(){
+        SceneManager.LoadScene("Elyiano");
+        manager.position = new Vector3(-0.75f, -6f, 0f);
+        manager.current_hp = manager.initial_hp;
     }
 
     private void Start(){
         monster = MonsterPicker.Picker.GetMonster(manager.currentChallenge);
         monster_image.GetComponent<Image>().sprite = monster.sprite;
+        monster_image.transform.GetChild(0).gameObject.GetComponent<Text>().text = monster.id;
         SimpleBlit.managers.enabled = false;
+
+        you_died.SetActive(false);
 
         updateUI(UIMode.initialMode);
     }
