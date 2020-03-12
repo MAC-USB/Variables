@@ -11,6 +11,7 @@ public class Variables : MonoBehaviour
 
 
     // Carlitos
+    public string groupName;
     public int currentChallenge;
     public bool challengeCompleted;
     public string sceneName;
