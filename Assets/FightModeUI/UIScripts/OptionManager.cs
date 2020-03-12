@@ -33,7 +33,7 @@ public class OptionManager : MonoBehaviour
     }
 
     private void Update(){
-        if (Input.GetKeyDown(KeyCode.Return)){
+        if (Input.GetKeyDown(KeyCode.Return) && can_move){
             can_move = false;
 
             if (is_vertical){
