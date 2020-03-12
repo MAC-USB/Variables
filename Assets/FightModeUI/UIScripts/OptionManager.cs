@@ -67,10 +67,9 @@ public class OptionManager : MonoBehaviour
     }
 
     IEnumerator youRoutine(){
-        for(;;){
-            manager.you_died.Play("YouDied", 0);
-            yield return new WaitForSeconds(3f);
-        }
+        manager.you_died.Play("YouDied", 0);
+        yield return new WaitForSeconds(3f);
+        manager.scapeSecuence();
     }
 
     private void setUIMode(){
@@ -84,8 +83,6 @@ public class OptionManager : MonoBehaviour
             case 2:
                 bar_controller.reduceBar("h", "s");
                 StartCoroutine("youRoutine");
-                manager.scapeSecuence();
-                StopCoroutine(youRoutine());
                 break;
         }
     }
