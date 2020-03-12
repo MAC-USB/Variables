@@ -75,7 +75,7 @@ public class DialogSystem : MonoBehaviour
     }
 
     void Start(){
-        panelObject.SetActive(false);
+        if (panelObject != null) panelObject.SetActive(false);
     }
 
     // Update is called once per frame

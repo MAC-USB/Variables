@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 public enum UIMode {
     attackMode,
     specialMode,
@@ -45,15 +46,21 @@ public class FightUIManager : MonoBehaviour
 
     }
 
+    public void scapeSecuence(){
+        SceneManager.LoadScene(manager.sceneName);
+    }
+
+    private void Update(){
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            updateUI(UIMode.initialMode);
+        }
+    }
+
     private void Start(){
         monster = MonsterPicker.Picker.GetMonster(manager.currentChallenge);
         monster_image.GetComponent<Image>().sprite = monster.sprite;
 
         updateUI(UIMode.initialMode);
-    }
-
-    private void Update(){
-        //Debug.Log(current_ui_mode);
     }
 
     public void updateUI(UIMode mode){
