@@ -182,7 +182,10 @@ public class DialogSystem : MonoBehaviour
     /// <param name="textBox">Caja de texto donde escribir problema</param>
     public void StartMonsterDialogRoutine(MonsterSO monster, Text textBox)
     {
-        if (dialogTextRoutine != null) StopCoroutine(dialogTextRoutine);
+        if (dialogTextRoutine != null){
+            //stop typing
+            StopCoroutine(dialogTextRoutine);
+        }
         dialogTextRoutine = StartCoroutine(WriteMonsterText(monster.problem.Trim() + "... ", textBox));
     }
 
@@ -193,7 +196,10 @@ public class DialogSystem : MonoBehaviour
     /// <param name="textBox">Caja de texto donde escribir tip</param>
     public void StartMonsterTipRoutine(MonsterSO monster, Text textBox)
     {
-        if (dialogTextRoutine != null) StopCoroutine(dialogTextRoutine);
+        if (dialogTextRoutine != null){
+            //stop typing
+            StopCoroutine(dialogTextRoutine);
+        }
         dialogTextRoutine = StartCoroutine(WriteMonsterText(monster.tip.Trim(), textBox, monster.problem.Trim() + "... "));
     }
 
@@ -215,6 +221,7 @@ public class DialogSystem : MonoBehaviour
         ready = false;
         textBox.text = initial;
         int i = 0;
+        //Play typing
         foreach (char c in toWrite)
         {
             textBox.text += c;

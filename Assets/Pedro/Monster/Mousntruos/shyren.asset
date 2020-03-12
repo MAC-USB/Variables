@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e347a4f146747b74bb01e7a2b1755136, type: 3}
   m_Name: shyren
   m_EditorClassIdentifier: 
+  id: Shyren
   sprite: {fileID: 21300000, guid: cdf20287dc1381b41a6e529cd9b91d52, type: 3}
   problem: Las lineas de FILE estan enumeradas desde 1, todas con un numero distinto,
     pero no estan ordenadas. Imprimir la linea con el numero 1, sustituyendo las

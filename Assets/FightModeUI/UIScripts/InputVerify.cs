@@ -10,9 +10,12 @@ public class InputVerify : MonoBehaviour
     [HideInInspector()]
     public MHController bar_controller;
 
+    public AudioManager audMan;
+
     private void Start(){
         ui_manager = GameObject.Find("MainPanel").GetComponent<FightUIManager>();
         bar_controller = GameObject.Find("Status").GetComponent<MHController>();
+        audMan = ui_manager.manager.gameObject.GetComponent<AudioManager>();
     }
 
     private void Update(){
@@ -20,12 +23,21 @@ public class InputVerify : MonoBehaviour
             if(checkAnswer(ui_manager.monster.solution)){
                 //Respuesta
                 //Ganar y salir de combate. Secuencia de escape
+                
+                if (ui_manager.manager.boss){
+                    audMan.Play("Victoria Boss");
+                }
+                else{
+                    audMan.Play("Victoria Reto");
+                }
                 ui_manager.manager.challengeCompleted = true;
                 StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, ui_manager.manager.sceneName));
             } else {
                 if(!ui_manager.is_blocking){
                     bar_controller.reduceBar("h", "f");
+                    audMan.Play("Hit");
                 } else {
+                    //Blockeo
                     ui_manager.is_blocking = false;
                 }
 
