@@ -38,16 +38,21 @@ public class FightUIManager : MonoBehaviour
         event_system_manager = GameObject.Find("EventSystem");
 
         monster_image = transform.GetChild(0).gameObject;
+        monster_image.GetComponent<Image>().sprite = monster.sprite;
         attack_panel = transform.GetChild(1).gameObject;
         dialog_panel = transform.GetChild(2).gameObject;
         special_options = transform.GetChild(3).gameObject;
         button_area = transform.GetChild(4).gameObject;
 
-        initialMode();
+        updateUI(UIMode.initialMode);
     }
 
     private void Start(){
         //GetMonster
+    }
+
+    private void Update(){
+        Debug.Log(current_ui_mode);
     }
 
     public void updateUI(UIMode mode){
@@ -85,7 +90,9 @@ public class FightUIManager : MonoBehaviour
         button_area.SetActive(true);
 
         button_area.GetComponent<OptionManager>().can_move = true;
+        special_options.GetComponent<OptionManager>().can_move = true;
 
+        dialog_panel.transform.GetChild(0).gameObject.SetActive(true);
         monsterDialogMode();
     }
 
@@ -112,7 +119,7 @@ public class FightUIManager : MonoBehaviour
     // Selection mode
     private void specialMode(){
         resetMode();
-        dialog.StopMonsterDiag();
+        //dialog.StopMonsterDiag();
         attack_panel.SetActive(false);
         dialog_panel.transform.GetChild(0).gameObject.SetActive(false);
     }
@@ -120,7 +127,7 @@ public class FightUIManager : MonoBehaviour
     // Attack and block modes
     private void attackMode(){
         resetMode();
-        dialog.StopMonsterDiag();
+        //dialog.StopMonsterDiag();
         special_options.SetActive(false);
         dialog_panel.SetActive(false);
         attack_panel.GetComponent<InputField>().text = "";
