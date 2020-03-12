@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Movement : MonoBehaviour {
 
@@ -22,13 +23,15 @@ public class Movement : MonoBehaviour {
 	}
 
 	void Start(){
-		transform.position = GameObject.Find("Variables").GetComponent<Variables>().position;
+
+        transform.position = GameObject.Find("Variables").GetComponent<Variables>().position;
         DialogSystem.Manager.onDialogStart.AddListener(DisableMovement);
         DialogSystem.Manager.onDialogFinish.AddListener(EnableMovement);
-	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    }
+
+    // Update is called once per frame
+    void Update () {
         if (!isActive) return;
         velocity = Vector3.zero;
 		

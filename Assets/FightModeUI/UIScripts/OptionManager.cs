@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class OptionManager : MonoBehaviour
 {
+    public bool can_move = true;
     public Color selected = Color.cyan;
     public Color unselected = Color.blue;
     public bool is_vertical;
@@ -13,7 +14,6 @@ public class OptionManager : MonoBehaviour
     private float index = 0;
     private KeyCode more = KeyCode.RightArrow;
     private KeyCode less = KeyCode.LeftArrow;
-    private bool can_move = true;
 
     private void Awake()
     {
