@@ -47,7 +47,7 @@ public class FightUIManager : MonoBehaviour
     }
 
     public void scapeSecuence(){
-        SceneManager.LoadScene(manager.sceneName);
+        StartCoroutine(SimpleBlit.managers.FadeOut(TransType.Entry, manager.sceneName));
     }
 
     private void Update(){
